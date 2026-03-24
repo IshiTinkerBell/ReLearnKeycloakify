@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neonGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C7FF5E"/>
+      <stop offset="50%" stop-color="#59FF4A"/>
+      <stop offset="100%" stop-color="#00C853"/>
+    </linearGradient>
+    <linearGradient id="deepGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F2E12"/>
+      <stop offset="100%" stop-color="#08140A"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="hexClip">
+      <path d="M110 24L164 55V117L110 148L56 117V55L110 24Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(16,20)">
+    <!-- Hex frame -->
+    <path d="M110 10L176 48V124L110 162L44 124V48L110 10Z" fill="url(#deepGreen)" stroke="url(#neonGreen)" stroke-width="6" filter="url(#glow)"/>
+    <path d="M110 32L156 58V114L110 140L64 114V58L110 32Z" fill="#0B160D" stroke="#6DFF61" stroke-opacity="0.9" stroke-width="2.5"/>
+
+    <!-- Wolf head -->
+    <g clip-path="url(#hexClip)">
+      <path d="M72 115
+               C74 95, 82 76, 92 61
+               L101 77
+               L110 56
+               L119 77
+               L128 61
+               C138 76, 146 95, 148 115
+               C140 106, 133 101, 126 98
+               C121 113, 117 126, 110 135
+               C103 126, 99 113, 94 98
+               C87 101, 80 106, 72 115Z"
+            fill="url(#neonGreen)" fill-opacity="0.95" filter="url(#softGlow)"/>
+      <path d="M91 59L101 77L92 78L84 85L91 59Z" fill="#8DFF79"/>
+      <path d="M129 59L119 77L128 78L136 85L129 59Z" fill="#8DFF79"/>
+
+      <path d="M95 96C99 91 104 88 110 88C116 88 121 91 125 96
+               C120 99 116 100 110 100C104 100 100 99 95 96Z" fill="#08140A"/>
+      <path d="M102 106C105 103 107 102 110 102C113 102 115 103 118 106
+               C115 111 113 114 110 117C107 114 105 111 102 106Z" fill="#08140A"/>
+
+      <circle cx="98" cy="91" r="3.2" fill="#08140A"/>
+      <circle cx="122" cy="91" r="3.2" fill="#08140A"/>
+      <circle cx="97.5" cy="90.2" r="1.1" fill="#D8FFD0"/>
+      <circle cx="121.5" cy="90.2" r="1.1" fill="#D8FFD0"/>
+
+      <path d="M75 120C85 110 93 106 100 104" stroke="#D7FFB9" stroke-opacity="0.45" stroke-width="2"/>
+      <path d="M145 120C135 110 127 106 120 104" stroke="#D7FFB9" stroke-opacity="0.45" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(220,42)">
+    <text x="0" y="92"
+      font-family="Segoe UI, Arial, Helvetica, sans-serif"
+      font-size="76"
+      font-style="italic"
+      font-weight="900"
+      letter-spacing="2"
+      fill="url(#neonGreen)"
+      filter="url(#glow)">ARCTICWOLVES</text>
+
+    <path d="M4 120H610" stroke="url(#neonGreen)" stroke-width="4" stroke-linecap="round" filter="url(#softGlow)"/>
+    <path d="M620 120L658 120" stroke="#8BFF71" stroke-width="4" stroke-linecap="round" filter="url(#softGlow)"/>
+    <path d="M665 120L676 110L695 110" stroke="#8BFF71" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)"/>
+
+    <text x="2" y="150"
+      font-family="Segoe UI, Arial, Helvetica, sans-serif"
+      font-size="20"
+      font-weight="600"
+      letter-spacing="6"
+      fill="#C7FFB6" opacity="0.92">IDENTITY • ACCESS • SECURITY</text>
+  </g>
+</svg>

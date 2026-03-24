@@ -1,0 +1,41 @@
+.kcButtonPrimaryClass {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    border: none;
+    color: white;
+    border-radius: 9999px;
+    padding: 12px 24px;
+    font-weight: 600;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 14px rgba(37, 117, 252, 0.4);
+}
+
+/* Hover effect (lift + glow) */
+.kcButtonPrimaryClass:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(37, 117, 252, 0.6);
+}
+
+/* Active (pressed) */
+.kcButtonPrimaryClass:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 8px rgba(37, 117, 252, 0.4);
+}
+
+/* Focus (accessibility glow) */
+.kcButtonPrimaryClass:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(37, 117, 252, 0.5);
+}
+
+/* Disabled */
+.kcButtonPrimaryClass:disabled {
+    background: linear-gradient(90deg, #aaa, #ccc);
+    color: #666;
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: 0.6;
+}
+
+body.kcBodyClass {
+    background: url(../assets/background.png) no-repeat center center fixed;
+}

@@ -1690,7 +1690,7 @@
     "smtpServer": {},
     "loginTheme": "vanila",
     "accountTheme": "vanila",
-    "adminTheme": "",
+    "adminTheme": "vanila",
     "emailTheme": "",
     "eventsEnabled": false,
     "eventsListeners": ["keycloakify-logging", "jboss-logging"],

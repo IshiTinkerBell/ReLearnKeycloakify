@@ -1,0 +1,1 @@
+import{j as e}from"./index-DMbPeMY4.js";import{F as r}from"./FileUploadForm-A4YC0dfs.js";const l=({onChange:n,...o})=>{const s=a=>{try{n(JSON.parse(a))}catch{n({}),console.warn("Invalid json, ignoring value using {}")}};return e.jsx(r,{...o,language:"json",extension:".json",onChange:s})};export{l as J};

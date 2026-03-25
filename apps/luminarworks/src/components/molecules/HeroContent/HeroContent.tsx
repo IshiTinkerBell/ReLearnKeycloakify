@@ -1,6 +1,6 @@
+import Link from "next/link";
 import { Badge } from "@/components/atoms/Badge/Badge";
 import { Button } from "@/components/atoms/Button/Button";
-import styles from "./HeroContent.module.css";
 
 interface HeroContentProps {
     readonly onSignIn: () => Promise<void>;
@@ -9,20 +9,22 @@ interface HeroContentProps {
 
 export function HeroContent({ onSignIn, signUpHref }: HeroContentProps) {
     return (
-        <div className={styles.content}>
+        <div className="flex flex-col gap-6 max-w-[580px] relative z-[2]">
             <Badge>Elite Cybersecurity</Badge>
-            <h1 className={styles.headline}>
+            <h1 className="text-[clamp(2.6rem,5vw,4.2rem)] font-extrabold leading-[1.08] tracking-[-0.025em] text-[#f0f6ff]">
                 Protecting the
                 <br />
-                <span className={styles.gradient}>Digital Frontier</span>
+                <span className="text-gradient">Digital Frontier</span>
             </h1>
-            <p className={styles.description}>
+            <p className="text-[1.05rem] leading-[1.75] text-slate-400 max-w-[500px]">
                 Arctic Wolves is the apex predator of enterprise security. We deploy elite threat
                 intelligence, zero-trust architecture, and 24/7 SOC operations to neutralize
                 advanced persistent threats before they strike.
             </p>
-            <p className={styles.tagline}>We hunt. You sleep.</p>
-            <form action={onSignIn} className={styles.ctaForm}>
+            <p className="text-[1.05rem] font-bold italic text-cyber/75 tracking-[0.04em]">
+                We hunt. You sleep.
+            </p>
+            <form action={onSignIn} className="mt-[0.25rem]">
                 <Button type="submit" variant="primary">
                     Sign in with Keycloak
                     <svg
@@ -40,11 +42,11 @@ export function HeroContent({ onSignIn, signUpHref }: HeroContentProps) {
                     </svg>
                 </Button>
             </form>
-            <p className={styles.signUpPrompt}>
+            <p className="text-[0.9rem] text-slate-600 -mt-2">
                 New to Arctic Wolves?{" "}
-                <a href={signUpHref} className={styles.signUpLink}>
+                <Link href={signUpHref} className="text-cyber font-semibold hover:underline">
                     Create an account
-                </a>
+                </Link>
             </p>
         </div>
     );

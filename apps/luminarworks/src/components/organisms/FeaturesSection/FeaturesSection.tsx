@@ -1,5 +1,4 @@
 import { FeatureCard } from "@/components/molecules/FeatureCard/FeatureCard";
-import styles from "./FeaturesSection.module.css";
 
 const FEATURES = [
     {
@@ -88,13 +87,17 @@ const FEATURES = [
 
 export function FeaturesSection() {
     return (
-        <section className={styles.section}>
-            <div className={styles.container}>
-                <div className={styles.header}>
-                    <h2 className={styles.heading}>Our Capabilities</h2>
-                    <p className={styles.subheading}>Four disciplines. One mission. Eliminate the threat.</p>
+        <section className="py-20 pb-24 border-t border-cyber/[7%]">
+            <div className="max-w-[1200px] mx-auto px-10 flex flex-col gap-12">
+                <div className="text-center">
+                    <h2 className="text-[clamp(1.8rem,3vw,2.5rem)] font-extrabold text-[#f0f6ff] tracking-[-0.02em] mb-3">
+                        Our Capabilities
+                    </h2>
+                    <p className="text-base text-slate-500 tracking-[0.02em]">
+                        Four disciplines. One mission. Eliminate the threat.
+                    </p>
                 </div>
-                <div className={styles.grid}>
+                <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-5">
                     {FEATURES.map((feature) => (
                         <FeatureCard
                             key={feature.title}

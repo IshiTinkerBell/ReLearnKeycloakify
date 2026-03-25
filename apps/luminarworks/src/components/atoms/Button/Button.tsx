@@ -1,14 +1,14 @@
-import styles from "./Button.module.css";
+import type { ReactNode } from "react";
 
 interface ButtonProps {
-    children: React.ReactNode;
-    type?: "button" | "submit";
-    variant?: "primary" | "ghost";
+    readonly children: ReactNode;
+    readonly type?: "button" | "submit";
+    readonly variant?: "primary" | "ghost";
 }
 
 export function Button({ children, type = "button", variant = "primary" }: ButtonProps) {
     return (
-        <button type={type} className={`${styles.button} ${styles[variant]}`}>
+        <button type={type} className={`btn btn-${variant}`}>
             {children}
         </button>
     );

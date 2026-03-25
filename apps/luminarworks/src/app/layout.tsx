@@ -7,9 +7,9 @@ export const metadata: Metadata = {
         "Arctic Wolves delivers elite threat intelligence, zero-trust architecture, and 24/7 SOC operations to enterprises facing advanced persistent threats.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: { readonly children: React.ReactNode }) {
     return (
-        <html lang="en">
+        <html lang="en" suppressHydrationWarning>
             <body>{children}</body>
         </html>
     );

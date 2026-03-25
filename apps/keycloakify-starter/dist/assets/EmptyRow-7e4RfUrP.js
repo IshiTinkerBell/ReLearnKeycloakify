@@ -1,1 +1,0 @@
-import{j as t}from"./index-CUfmgbRF.js";import{D as e,a as i}from"./DataListItemCells-BmPyY4K9.js";import{a as r,b as m}from"./DataListItemRow-BiDJJahp.js";const n=({message:s,...a})=>t.jsx(r,{className:"pf-v5-u-align-items-center pf-p-b-0",children:t.jsx(m,{children:t.jsx(e,{dataListCells:[t.jsx(i,{...a,children:s},"0")]})})});export{n as E};

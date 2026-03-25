@@ -1,6 +1,6 @@
 import { kcSanitize } from "keycloakify/lib/kcSanitize";
-import type { PageProps } from "keycloakify/login/pages/PageProps";
 import { getKcClsx } from "keycloakify/login/lib/kcClsx";
+import type { PageProps } from "keycloakify/login/pages/PageProps";
 import type { KcContext } from "../KcContext";
 import type { I18n } from "../i18n";
 
@@ -9,13 +9,12 @@ export default function Info(
 ) {
     const { kcContext, i18n, Template, doUseDefaultCss, classes } = props;
     const { kcClsx } = getKcClsx({ doUseDefaultCss, classes });
-    const { msg } = i18n;
     const { messageHeader, message, actionUri } = kcContext;
 
     const signInHref = actionUri ?? "http://localhost:3000/login";
     const ctaLabel = actionUri
-        ? "Set your password to complete your account setup"
-        : "Login to the application";
+        ? "Complete your account setup — set a password"
+        : "Sign in to Arctic Wolves";
 
     return (
         <Template
@@ -26,21 +25,19 @@ export default function Info(
             headerNode={messageHeader ?? "Account updated"}
             displayMessage={false}
         >
-            <div id="kc-info-message">
+            <div className="flex flex-col gap-6">
                 {message?.summary && (
                     <p
-                        className="instruction"
+                        className="text-slate-400 text-sm leading-relaxed"
                         dangerouslySetInnerHTML={{ __html: kcSanitize(message.summary) }}
                     />
                 )}
-                <p>
-                    <a
-                        href={signInHref}
-                        className={kcClsx("kcButtonClass", "kcButtonPrimaryClass", "kcButtonLargeClass")}
-                    >
-                        {ctaLabel}
-                    </a>
-                </p>
+                <a
+                    href={signInHref}
+                    className={`${kcClsx("kcButtonClass", "kcButtonPrimaryClass", "kcButtonBlockClass")} mt-2 no-underline`}
+                >
+                    {ctaLabel}
+                </a>
             </div>
         </Template>
     );

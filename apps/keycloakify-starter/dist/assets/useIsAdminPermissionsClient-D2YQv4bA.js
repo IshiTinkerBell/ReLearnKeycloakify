@@ -1,0 +1,1 @@
+import{r as n}from"./index-DMbPeMY4.js";import{a as t}from"./KcAdminUi-C-vbe05A.js";function a(i){const{realmRepresentation:s}=t(),[m,e]=n.useState(!1);return n.useEffect(()=>{s!=null&&s.adminPermissionsClient?e(i===s.adminPermissionsClient.id):e(!1)},[i,s]),m}export{a as u};

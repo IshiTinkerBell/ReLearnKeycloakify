@@ -1,5 +1,4 @@
 import { StatItem } from "@/components/molecules/StatItem/StatItem";
-import styles from "./StatsBar.module.css";
 
 const STATS = [
     { value: "500+", label: "Enterprises Protected" },
@@ -9,8 +8,8 @@ const STATS = [
 
 export function StatsBar() {
     return (
-        <div className={styles.bar}>
-            <div className={styles.container}>
+        <div className="border-y border-cyber/[7%] bg-cyber/[2%] py-12">
+            <div className="max-w-[1200px] mx-auto px-10 grid grid-cols-3 gap-8 max-sm:grid-cols-1">
                 {STATS.map((stat) => (
                     <StatItem key={stat.label} value={stat.value} label={stat.label} />
                 ))}

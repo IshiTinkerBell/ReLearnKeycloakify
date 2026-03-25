@@ -23,7 +23,12 @@ export default function LoginUpdatePassword(
         >
             <form id="kc-passwd-update-form" action={url.loginAction} method="post">
                 <input type="hidden" name="stateChecker" value={kcContext.stateChecker} />
-                <input type="hidden" name="username" value={auth.attemptedUsername ?? ""} autoComplete="username" />
+                <input
+                    type="hidden"
+                    name="username"
+                    value={auth.attemptedUsername ?? ""}
+                    autoComplete="username"
+                />
 
                 <div className={kcClsx("kcFormGroupClass")}>
                     <div className={kcClsx("kcLabelWrapperClass")}>
@@ -82,24 +87,22 @@ export default function LoginUpdatePassword(
                     </div>
                 </div>
 
-                <div className={kcClsx("kcFormGroupClass")}>
-                    <div id="kc-form-buttons" className={kcClsx("kcFormButtonsClass")}>
-                        <input
-                            className={kcClsx("kcButtonClass", "kcButtonPrimaryClass", "kcButtonBlockClass", "kcButtonLargeClass")}
+                <div className={kcClsx("kcFormButtonsClass")}>
+                    <input
+                        className={`${kcClsx("kcButtonClass", "kcButtonPrimaryClass", "kcButtonBlockClass")} mt-2`}
+                        type="submit"
+                        value={msgStr("doSubmit")}
+                    />
+                    {isAppInitiatedAction && (
+                        <button
+                            className={`${kcClsx("kcButtonClass", "kcButtonDefaultClass", "kcButtonBlockClass")} mt-2`}
                             type="submit"
-                            value={msgStr("doSubmit")}
-                        />
-                        {isAppInitiatedAction && (
-                            <button
-                                className={kcClsx("kcButtonClass", "kcButtonDefaultClass", "kcButtonLargeClass")}
-                                type="submit"
-                                name="cancel-aia"
-                                value="true"
-                            >
-                                {msg("doCancel")}
-                            </button>
-                        )}
-                    </div>
+                            name="cancel-aia"
+                            value="true"
+                        >
+                            {msg("doCancel")}
+                        </button>
+                    )}
                 </div>
             </form>
         </Template>

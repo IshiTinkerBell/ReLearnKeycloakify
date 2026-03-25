@@ -18,16 +18,23 @@ export default function VerifyEmail(
             headerNode={msg("emailVerifyTitle")}
             displayMessage={false}
         >
-            <p id="instruction1" className="instruction">
-                {msg("emailVerifyInstruction1")}
-            </p>
-            <p id="instruction2" className="instruction">
-                {msg("emailVerifyInstruction2")}
-                &nbsp;
-                <a href={url.loginAction}>{msg("doClickHere")}</a>
-                &nbsp;
-                {msg("emailVerifyInstruction3")}
-            </p>
+            <div className="flex flex-col gap-4">
+                <p className="text-slate-400 text-sm leading-relaxed">
+                    {msg("emailVerifyInstruction1")}
+                </p>
+                <p className="text-slate-500 text-sm leading-relaxed">
+                    {msg("emailVerifyInstruction2")}
+                    {" "}
+                    <a
+                        href={url.loginAction}
+                        className="text-cyber font-semibold hover:underline"
+                    >
+                        {msg("doClickHere")}
+                    </a>
+                    {" "}
+                    {msg("emailVerifyInstruction3")}
+                </p>
+            </div>
         </Template>
     );
 }

@@ -6,68 +6,64 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "README.md",
-        "hash": "4452840290825899376"
-      },
-      {
-        "file": ".prettierrc.json",
-        "hash": "16227447784453458633"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "11568653878289683587"
+        "file": ".claude/settings.local.json",
+        "hash": "13516392168893166706"
       },
       {
         "file": ".github/workflows/ci.yaml",
         "hash": "16753726252094193557"
       },
       {
-        "file": ".npmrc",
-        "hash": "15689294289959854626"
-      },
-      {
-        "file": "nx.json",
-        "hash": "6168941065882759607"
-      },
-      {
-        "file": ".storybook/preview-head.html",
-        "hash": "9935032987163239416"
+        "file": ".gitignore",
+        "hash": "7375654300365636801"
       },
       {
         "file": ".keycloakify/realm-kc-26.json",
         "hash": "6935004293682551454"
       },
       {
-        "file": ".storybook/main.ts",
-        "hash": "9443099736782471869"
+        "file": ".npmrc",
+        "hash": "15689294289959854626"
       },
       {
         "file": ".prettierignore",
         "hash": "10791598467535713472"
       },
       {
-        "file": ".claude/settings.local.json",
-        "hash": "13516392168893166706"
+        "file": ".prettierrc.json",
+        "hash": "16227447784453458633"
+      },
+      {
+        "file": ".storybook/main.ts",
+        "hash": "9443099736782471869"
+      },
+      {
+        "file": ".storybook/preview-head.html",
+        "hash": "9935032987163239416"
+      },
+      {
+        "file": ".storybook/preview.ts",
+        "hash": "12910455927522279503"
       },
       {
         "file": "CLAUDE.md",
         "hash": "13508964250150360787"
       },
       {
-        "file": "pnpm-workspace.yaml",
-        "hash": "3364563017719869349"
+        "file": "LICENSE",
+        "hash": "11568653878289683587"
       },
       {
-        "file": ".gitignore",
-        "hash": "7375654300365636801"
+        "file": "README.md",
+        "hash": "4452840290825899376"
       },
       {
         "file": "libs/.gitkeep",
         "hash": "3244421341483603138"
       },
       {
-        "file": ".storybook/preview.ts",
-        "hash": "12910455927522279503"
+        "file": "nx.json",
+        "hash": "6168941065882759607"
       },
       {
         "file": "package.json",
@@ -75,434 +71,18 @@
       },
       {
         "file": "pnpm-lock.yaml",
-        "hash": "12776262723347673636"
+        "hash": "14519211533683366977"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "3364563017719869349"
       }
     ],
     "projectFileMap": {
-      "luminarworks": [
-        {
-          "file": "apps/luminarworks/.env.local",
-          "hash": "5533944748956171088"
-        },
-        {
-          "file": "apps/luminarworks/.env.local.example",
-          "hash": "6287008184743636849"
-        },
-        {
-          "file": "apps/luminarworks/.next/app-build-manifest.json",
-          "hash": "6642808631538785885"
-        },
-        {
-          "file": "apps/luminarworks/.next/build-manifest.json",
-          "hash": "2702609462139627143"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/.rscinfo",
-          "hash": "11603307827937491990"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/next-devtools-config.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/client-development/0.pack.gz",
-          "hash": "4363299176106939532"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/client-development/1.pack.gz",
-          "hash": "7680741753816364303"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/client-development/2.pack.gz",
-          "hash": "6123181575534901071"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/client-development/3.pack.gz",
-          "hash": "8227932169647856663"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/client-development/4.pack.gz",
-          "hash": "7478770555119034913"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/client-development/5.pack.gz",
-          "hash": "1464475402075941647"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/client-development/6.pack.gz",
-          "hash": "15857160710344908739"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/client-development/7.pack.gz",
-          "hash": "8887371170854725460"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/client-development/8.pack.gz",
-          "hash": "17697422080617212496"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/client-development/9.pack.gz",
-          "hash": "11659978213143602893"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/client-development/index.pack.gz",
-          "hash": "6502338992109190533"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/client-development/index.pack.gz.old",
-          "hash": "1010844460544934368"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/edge-server-development/0.pack.gz",
-          "hash": "5080211465633611380"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/edge-server-development/index.pack.gz",
-          "hash": "5134735496688575865"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/0.pack.gz",
-          "hash": "18215322369178721150"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/1.pack.gz",
-          "hash": "4683164200303961376"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/10.pack.gz",
-          "hash": "7366979513216251154"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/11.pack.gz",
-          "hash": "3729450664278564812"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/12.pack.gz",
-          "hash": "7292729255578339379"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/13.pack.gz",
-          "hash": "14844194921212672390"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/2.pack.gz",
-          "hash": "14380177558569742170"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/3.pack.gz",
-          "hash": "11598442803980469561"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/4.pack.gz",
-          "hash": "256486175725541579"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/5.pack.gz",
-          "hash": "15490793155381791214"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/6.pack.gz",
-          "hash": "13258816893951690847"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/7.pack.gz",
-          "hash": "4269560812218502458"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/8.pack.gz",
-          "hash": "13794381607374542609"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/9.pack.gz",
-          "hash": "16555947253061552746"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/index.pack.gz",
-          "hash": "15016271134124344305"
-        },
-        {
-          "file": "apps/luminarworks/.next/cache/webpack/server-development/index.pack.gz.old",
-          "hash": "2716473527677050223"
-        },
-        {
-          "file": "apps/luminarworks/.next/package.json",
-          "hash": "11338307439248427064"
-        },
-        {
-          "file": "apps/luminarworks/.next/prerender-manifest.json",
-          "hash": "8213138431431773771"
-        },
-        {
-          "file": "apps/luminarworks/.next/react-loadable-manifest.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "apps/luminarworks/.next/routes-manifest.json",
-          "hash": "2282505038782265489"
-        },
-        {
-          "file": "apps/luminarworks/.next/server/app-paths-manifest.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "apps/luminarworks/.next/server/interception-route-rewrite-manifest.js",
-          "hash": "10484309360224763022"
-        },
-        {
-          "file": "apps/luminarworks/.next/server/middleware-build-manifest.js",
-          "hash": "10087042376963020870"
-        },
-        {
-          "file": "apps/luminarworks/.next/server/middleware-manifest.json",
-          "hash": "9889576824779923310"
-        },
-        {
-          "file": "apps/luminarworks/.next/server/middleware-react-loadable-manifest.js",
-          "hash": "9185069726031651908"
-        },
-        {
-          "file": "apps/luminarworks/.next/server/next-font-manifest.js",
-          "hash": "16541577805185552134"
-        },
-        {
-          "file": "apps/luminarworks/.next/server/next-font-manifest.json",
-          "hash": "11891788324563068681"
-        },
-        {
-          "file": "apps/luminarworks/.next/server/pages-manifest.json",
-          "hash": "1389868326933519382"
-        },
-        {
-          "file": "apps/luminarworks/.next/server/server-reference-manifest.js",
-          "hash": "13062913855343812063"
-        },
-        {
-          "file": "apps/luminarworks/.next/server/server-reference-manifest.json",
-          "hash": "8095162416456322731"
-        },
-        {
-          "file": "apps/luminarworks/.next/static/chunks/polyfills.js",
-          "hash": "8152964857117933876"
-        },
-        {
-          "file": "apps/luminarworks/.next/static/development/_buildManifest.js",
-          "hash": "13063724784290855366"
-        },
-        {
-          "file": "apps/luminarworks/.next/static/development/_ssgManifest.js",
-          "hash": "17018243955171961484"
-        },
-        {
-          "file": "apps/luminarworks/.next/trace",
-          "hash": "14550223920614421000"
-        },
-        {
-          "file": "apps/luminarworks/.next/types/cache-life.d.ts",
-          "hash": "4146217227981141382"
-        },
-        {
-          "file": "apps/luminarworks/.next/types/package.json",
-          "hash": "6094546126370684104"
-        },
-        {
-          "file": "apps/luminarworks/.next/types/routes.d.ts",
-          "hash": "10602373472841301524"
-        },
-        {
-          "file": "apps/luminarworks/next-env.d.ts",
-          "hash": "2079576359933084494"
-        },
-        {
-          "file": "apps/luminarworks/next.config.ts",
-          "hash": "6850921188266746327"
-        },
-        {
-          "file": "apps/luminarworks/package.json",
-          "hash": "15963207637107270296",
-          "deps": [
-            "npm:@types/node",
-            "npm:@types/react",
-            "npm:@types/react-dom",
-            "npm:typescript",
-            "npm:next",
-            "npm:next-auth",
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/luminarworks/project.json",
-          "hash": "3797514327320866936"
-        },
-        {
-          "file": "apps/luminarworks/src/app/actions.ts",
-          "hash": "6038337265175962092"
-        },
-        {
-          "file": "apps/luminarworks/src/app/api/auth/[...nextauth]/route.ts",
-          "hash": "6898140225989190846"
-        },
-        {
-          "file": "apps/luminarworks/src/app/dashboard/page.tsx",
-          "hash": "852577564001906740"
-        },
-        {
-          "file": "apps/luminarworks/src/app/globals.css",
-          "hash": "3134948426458783671"
-        },
-        {
-          "file": "apps/luminarworks/src/app/layout.tsx",
-          "hash": "9896354760857278782"
-        },
-        {
-          "file": "apps/luminarworks/src/app/login/route.ts",
-          "hash": "10748174379275544277"
-        },
-        {
-          "file": "apps/luminarworks/src/app/page.tsx",
-          "hash": "7888455096444804460"
-        },
-        {
-          "file": "apps/luminarworks/src/app/signup/check-email/CheckEmailPage.module.css",
-          "hash": "5905718334024114240"
-        },
-        {
-          "file": "apps/luminarworks/src/app/signup/check-email/page.tsx",
-          "hash": "7854720310962404853"
-        },
-        {
-          "file": "apps/luminarworks/src/app/signup/page.tsx",
-          "hash": "1210285359438134979"
-        },
-        {
-          "file": "apps/luminarworks/src/auth.ts",
-          "hash": "14277634755287673873"
-        },
-        {
-          "file": "apps/luminarworks/src/components/atoms/Badge/Badge.module.css",
-          "hash": "12222572314214240009"
-        },
-        {
-          "file": "apps/luminarworks/src/components/atoms/Badge/Badge.tsx",
-          "hash": "3461527350611977282"
-        },
-        {
-          "file": "apps/luminarworks/src/components/atoms/Button/Button.module.css",
-          "hash": "12372495424294130104"
-        },
-        {
-          "file": "apps/luminarworks/src/components/atoms/Button/Button.tsx",
-          "hash": "15335418933566346065"
-        },
-        {
-          "file": "apps/luminarworks/src/components/molecules/FeatureCard/FeatureCard.module.css",
-          "hash": "3104097138324492539"
-        },
-        {
-          "file": "apps/luminarworks/src/components/molecules/FeatureCard/FeatureCard.tsx",
-          "hash": "13499605882436574395"
-        },
-        {
-          "file": "apps/luminarworks/src/components/molecules/HeroContent/HeroContent.module.css",
-          "hash": "6929845560031604998"
-        },
-        {
-          "file": "apps/luminarworks/src/components/molecules/HeroContent/HeroContent.tsx",
-          "hash": "8413110579079015815"
-        },
-        {
-          "file": "apps/luminarworks/src/components/molecules/MetricCard/MetricCard.module.css",
-          "hash": "9217488118741253900"
-        },
-        {
-          "file": "apps/luminarworks/src/components/molecules/MetricCard/MetricCard.tsx",
-          "hash": "15689444922213765858"
-        },
-        {
-          "file": "apps/luminarworks/src/components/molecules/StatItem/StatItem.module.css",
-          "hash": "16590168990602667070"
-        },
-        {
-          "file": "apps/luminarworks/src/components/molecules/StatItem/StatItem.tsx",
-          "hash": "8999248407118633493"
-        },
-        {
-          "file": "apps/luminarworks/src/components/organisms/DashboardHeader/DashboardHeader.module.css",
-          "hash": "12931012203792364387"
-        },
-        {
-          "file": "apps/luminarworks/src/components/organisms/DashboardHeader/DashboardHeader.tsx",
-          "hash": "16274498459548173658"
-        },
-        {
-          "file": "apps/luminarworks/src/components/organisms/FeaturesSection/FeaturesSection.module.css",
-          "hash": "10470135509279286782"
-        },
-        {
-          "file": "apps/luminarworks/src/components/organisms/FeaturesSection/FeaturesSection.tsx",
-          "hash": "14200192049069179129"
-        },
-        {
-          "file": "apps/luminarworks/src/components/organisms/HeroSection/HeroSection.module.css",
-          "hash": "7139394208728773783"
-        },
-        {
-          "file": "apps/luminarworks/src/components/organisms/HeroSection/HeroSection.tsx",
-          "hash": "11989871383850940236"
-        },
-        {
-          "file": "apps/luminarworks/src/components/organisms/SignUpForm/SignUpForm.module.css",
-          "hash": "6523266626519589035"
-        },
-        {
-          "file": "apps/luminarworks/src/components/organisms/SignUpForm/SignUpForm.tsx",
-          "hash": "5416543521718863144"
-        },
-        {
-          "file": "apps/luminarworks/src/components/organisms/StatsBar/StatsBar.module.css",
-          "hash": "7758452560430918355"
-        },
-        {
-          "file": "apps/luminarworks/src/components/organisms/StatsBar/StatsBar.tsx",
-          "hash": "16426455342810223895"
-        },
-        {
-          "file": "apps/luminarworks/src/components/templates/DashboardTemplate/DashboardTemplate.module.css",
-          "hash": "8162423362454266699"
-        },
-        {
-          "file": "apps/luminarworks/src/components/templates/DashboardTemplate/DashboardTemplate.tsx",
-          "hash": "3524135850168520082"
-        },
-        {
-          "file": "apps/luminarworks/src/components/templates/LandingTemplate/LandingTemplate.module.css",
-          "hash": "11289123987583816014"
-        },
-        {
-          "file": "apps/luminarworks/src/components/templates/LandingTemplate/LandingTemplate.tsx",
-          "hash": "1130445827659245351"
-        },
-        {
-          "file": "apps/luminarworks/src/components/templates/SignUpTemplate/SignUpTemplate.module.css",
-          "hash": "16040378556456194753"
-        },
-        {
-          "file": "apps/luminarworks/src/components/templates/SignUpTemplate/SignUpTemplate.tsx",
-          "hash": "2327106218015394573"
-        },
-        {
-          "file": "apps/luminarworks/src/middleware.ts",
-          "hash": "14447052610872009279"
-        },
-        {
-          "file": "apps/luminarworks/tsconfig.json",
-          "hash": "3613931489329482418"
-        }
-      ],
       "keycloakify-starter": [
         {
           "file": "apps/keycloakify-starter/.keycloakify/realm-kc-26.json",
-          "hash": "12000245378821805337"
+          "hash": "7098594981647695994"
         },
         {
           "file": "apps/keycloakify-starter/.storybook/main.ts",
@@ -2090,12 +1670,13 @@
         },
         {
           "file": "apps/keycloakify-starter/package.json",
-          "hash": "974145565948391720",
+          "hash": "18396526471675358994",
           "deps": [
             "npm:@eslint/js",
-            "npm:storybook",
             "npm:@storybook/react",
             "npm:@storybook/react-vite",
+            "npm:@types/file-saver",
+            "npm:@types/lodash-es",
             "npm:@types/react",
             "npm:@types/react-dom",
             "npm:@typescript-eslint/eslint-plugin",
@@ -2109,37 +1690,38 @@
             "npm:eslint-plugin-storybook",
             "npm:globals@15.15.0",
             "npm:prettier",
+            "npm:storybook",
             "npm:typescript",
             "npm:typescript-eslint",
             "npm:vite",
-            "npm:@types/lodash-es",
-            "npm:@types/file-saver",
-            "npm:keycloakify",
-            "npm:react",
-            "npm:react-dom",
+            "npm:@dagrejs/dagre",
+            "npm:@keycloak/keycloak-admin-client",
             "npm:@keycloakify/keycloak-account-ui",
+            "npm:@keycloakify/keycloak-admin-ui",
             "npm:@keycloakify/keycloak-ui-shared",
             "npm:@patternfly/patternfly",
             "npm:@patternfly/react-core",
             "npm:@patternfly/react-icons",
-            "npm:@patternfly/react-table",
-            "npm:i18next",
-            "npm:i18next-fetch-backend",
-            "npm:lodash-es",
-            "npm:react-hook-form",
-            "npm:react-i18next",
-            "npm:react-router-dom",
-            "npm:@keycloak/keycloak-admin-client",
             "npm:@patternfly/react-styles",
-            "npm:oidc-spa",
-            "npm:@keycloakify/keycloak-admin-ui",
-            "npm:@dagrejs/dagre",
+            "npm:@patternfly/react-table",
+            "npm:@tailwindcss/vite",
             "npm:@uiw/react-textarea-code-editor",
             "npm:file-saver",
             "npm:flat@6.0.1",
+            "npm:i18next",
+            "npm:i18next-fetch-backend",
             "npm:jszip",
+            "npm:keycloakify",
+            "npm:lodash-es",
+            "npm:oidc-spa",
             "npm:p-debounce",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-hook-form",
+            "npm:react-i18next",
+            "npm:react-router-dom",
             "npm:reactflow",
+            "npm:tailwindcss",
             "npm:use-react-router-breadcrumbs",
             "npm:yaml"
           ]
@@ -2190,7 +1772,7 @@
         },
         {
           "file": "apps/keycloakify-starter/src/login/KcPage.tsx",
-          "hash": "985170457617398001"
+          "hash": "172359219193332147"
         },
         {
           "file": "apps/keycloakify-starter/src/login/KcPageStory.tsx",
@@ -2198,7 +1780,7 @@
         },
         {
           "file": "apps/keycloakify-starter/src/login/Template.tsx",
-          "hash": "9455200542765823667"
+          "hash": "10502968552142485969"
         },
         {
           "file": "apps/keycloakify-starter/src/login/i18n.ts",
@@ -2206,15 +1788,15 @@
         },
         {
           "file": "apps/keycloakify-starter/src/login/main-chocolate.css",
-          "hash": "753352646017623991"
+          "hash": "3258991158821875126"
         },
         {
           "file": "apps/keycloakify-starter/src/login/main-vanila.css",
-          "hash": "2338025182123729056"
+          "hash": "1930704938941317025"
         },
         {
           "file": "apps/keycloakify-starter/src/login/main.css",
-          "hash": "2517724996929476960"
+          "hash": "10141140621198455967"
         },
         {
           "file": "apps/keycloakify-starter/src/login/pages/Info.stories.tsx",
@@ -2222,7 +1804,7 @@
         },
         {
           "file": "apps/keycloakify-starter/src/login/pages/Info.tsx",
-          "hash": "5463817802144230689"
+          "hash": "453972768002213074"
         },
         {
           "file": "apps/keycloakify-starter/src/login/pages/Login.stories.tsx",
@@ -2234,7 +1816,7 @@
         },
         {
           "file": "apps/keycloakify-starter/src/login/pages/LoginUpdatePassword.tsx",
-          "hash": "15734793457878977080"
+          "hash": "2729327933353041154"
         },
         {
           "file": "apps/keycloakify-starter/src/login/pages/Register.stories.tsx",
@@ -2250,7 +1832,11 @@
         },
         {
           "file": "apps/keycloakify-starter/src/login/pages/VerifyEmail.tsx",
-          "hash": "10823340442399617276"
+          "hash": "7164914754852409138"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/theme.css",
+          "hash": "13764654100991552531"
         },
         {
           "file": "apps/keycloakify-starter/src/main.tsx",
@@ -2282,7 +1868,557 @@
         },
         {
           "file": "apps/keycloakify-starter/vite.config.ts",
-          "hash": "15298924837654346743"
+          "hash": "5499004624626243419"
+        }
+      ],
+      "luminarworks": [
+        {
+          "file": "apps/luminarworks/.env.local",
+          "hash": "5533944748956171088"
+        },
+        {
+          "file": "apps/luminarworks/.env.local.example",
+          "hash": "6287008184743636849"
+        },
+        {
+          "file": "apps/luminarworks/.next/app-build-manifest.json",
+          "hash": "17282741474382036255"
+        },
+        {
+          "file": "apps/luminarworks/.next/build-manifest.json",
+          "hash": "5125768831124365349"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/.rscinfo",
+          "hash": "11603307827937491990"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/next-devtools-config.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/0.pack.gz",
+          "hash": "18023591069690955702"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/1.pack.gz",
+          "hash": "9472211976893047891"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/2.pack.gz",
+          "hash": "4509960927593257837"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/3.pack.gz",
+          "hash": "9094534748534720415"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/4.pack.gz",
+          "hash": "16526515133729650829"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/5.pack.gz",
+          "hash": "5240519502230754930"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/6.pack.gz",
+          "hash": "642500392714011830"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/7.pack.gz",
+          "hash": "10293675471136402387"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/8.pack.gz",
+          "hash": "17697422080617212496"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/9.pack.gz",
+          "hash": "11659978213143602893"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/index.pack.gz",
+          "hash": "15755773219215891253"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/index.pack.gz.old",
+          "hash": "8532816596089883942"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/edge-server-development/0.pack.gz",
+          "hash": "6624840287084966038"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/edge-server-development/1.pack.gz",
+          "hash": "11082855537506648578"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/edge-server-development/index.pack.gz",
+          "hash": "3598911764475708939"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/edge-server-development/index.pack.gz.old",
+          "hash": "5134735496688575865"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/0.pack.gz",
+          "hash": "920887116021077972"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/1.pack.gz",
+          "hash": "16013504071856575787"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/10.pack.gz",
+          "hash": "7366979513216251154"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/11.pack.gz",
+          "hash": "14824335109874535403"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/12.pack.gz",
+          "hash": "2734350905391378186"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/13.pack.gz",
+          "hash": "8199500567376704974"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/14.pack.gz",
+          "hash": "16255520592026532564"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/2.pack.gz",
+          "hash": "4046183993073056800"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/3.pack.gz",
+          "hash": "11598442803980469561"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/4.pack.gz",
+          "hash": "4430322902546616072"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/5.pack.gz",
+          "hash": "6752972755587446169"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/6.pack.gz",
+          "hash": "1785305820750022946"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/7.pack.gz",
+          "hash": "4269560812218502458"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/8.pack.gz",
+          "hash": "6739203229367860839"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/9.pack.gz",
+          "hash": "7681598934370873788"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/index.pack.gz",
+          "hash": "1691880307542939069"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/index.pack.gz.old",
+          "hash": "4580341457628168699"
+        },
+        {
+          "file": "apps/luminarworks/.next/package.json",
+          "hash": "11338307439248427064"
+        },
+        {
+          "file": "apps/luminarworks/.next/prerender-manifest.json",
+          "hash": "16050821261883413953"
+        },
+        {
+          "file": "apps/luminarworks/.next/react-loadable-manifest.json",
+          "hash": "444717077754217574"
+        },
+        {
+          "file": "apps/luminarworks/.next/routes-manifest.json",
+          "hash": "2282505038782265489"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/app-paths-manifest.json",
+          "hash": "1536504977064639184"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/app/dashboard/page.js",
+          "hash": "17750021030188287390"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/app/dashboard/page_client-reference-manifest.js",
+          "hash": "1879390583309550166"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/app/page.js",
+          "hash": "15819663963595939785"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/app/page_client-reference-manifest.js",
+          "hash": "800688359228443874"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/app/signup/page.js",
+          "hash": "11266112222197591139"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/app/signup/page_client-reference-manifest.js",
+          "hash": "7983913255053021172"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/edge-runtime-webpack.js",
+          "hash": "10830382611367655866"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/interception-route-rewrite-manifest.js",
+          "hash": "10484309360224763022"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/middleware-build-manifest.js",
+          "hash": "10146558356613894909"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/middleware-manifest.json",
+          "hash": "18158762348361477056"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/middleware-react-loadable-manifest.js",
+          "hash": "1821851609036551884"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/middleware.js",
+          "hash": "1066751692885348835"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/next-font-manifest.js",
+          "hash": "16541577805185552134"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/next-font-manifest.json",
+          "hash": "11891788324563068681"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/pages-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/server-reference-manifest.js",
+          "hash": "1995376124521029080"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/server-reference-manifest.json",
+          "hash": "10171027732690782776"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/static/webpack/633457081244afec._.hot-update.json",
+          "hash": "10481436618516908015"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/vendor-chunks/@auth+core@0.41.0.js",
+          "hash": "9724584565067792553"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/vendor-chunks/@panva+hkdf@1.2.1.js",
+          "hash": "13974796402216052497"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/vendor-chunks/@swc+helpers@0.5.15.js",
+          "hash": "8867384983974868686"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/vendor-chunks/jose@6.2.2.js",
+          "hash": "5918704301161064486"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/vendor-chunks/next-auth@5.0.0-beta.30_nex_efb044832d46df5b6a0e3a5155c9338d.js",
+          "hash": "8182990745464449284"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/vendor-chunks/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1.js",
+          "hash": "1113163373743929264"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/vendor-chunks/oauth4webapi@3.8.5.js",
+          "hash": "13490802890527596127"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/vendor-chunks/preact-render-to-string@6.5.11_preact@10.24.3.js",
+          "hash": "10840247564827128857"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/vendor-chunks/preact@10.24.3.js",
+          "hash": "9765037709952046004"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/webpack-runtime.js",
+          "hash": "10759809070885913901"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/chunks/_app-pages-browser_node_modules_pnpm_next_15_5_14_react-dom_18_3_1_react_18_3_1__react_18_3_1-9829db.js",
+          "hash": "8294543712085934339"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/chunks/app-pages-internals.js",
+          "hash": "15183038986192446240"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/chunks/app/dashboard/loading.js",
+          "hash": "16592273940734202904"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/chunks/app/dashboard/page.js",
+          "hash": "14844147577996007784"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/chunks/app/layout.js",
+          "hash": "18108107149212190962"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/chunks/app/loading.js",
+          "hash": "3282475181722876049"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/chunks/app/page.js",
+          "hash": "8292771151511489105"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/chunks/app/signup/page.js",
+          "hash": "9257732891542555871"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/chunks/main-app.js",
+          "hash": "16305773051936071806"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/chunks/polyfills.js",
+          "hash": "8152964857117933876"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/chunks/webpack.js",
+          "hash": "17293562239006460499"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/css/app/layout.css",
+          "hash": "1529585687025707914"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/development/_buildManifest.js",
+          "hash": "13063724784290855366"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/development/_ssgManifest.js",
+          "hash": "17018243955171961484"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/webpack/1e20dfe42cbfcccb.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/webpack/633457081244afec._.hot-update.json",
+          "hash": "10481436618516908015"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/webpack/app/layout.c074206ba64c8518.hot-update.js",
+          "hash": "4651895838869752594"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/webpack/c074206ba64c8518.webpack.hot-update.json",
+          "hash": "8773209185785337189"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/webpack/webpack.1e20dfe42cbfcccb.hot-update.js",
+          "hash": "5926551791434364537"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/webpack/webpack.c074206ba64c8518.hot-update.js",
+          "hash": "16935423643586556071"
+        },
+        {
+          "file": "apps/luminarworks/.next/trace",
+          "hash": "3810224718046358265"
+        },
+        {
+          "file": "apps/luminarworks/.next/types/app/dashboard/page.ts",
+          "hash": "16185254273410786799"
+        },
+        {
+          "file": "apps/luminarworks/.next/types/app/layout.ts",
+          "hash": "3763408773679439331"
+        },
+        {
+          "file": "apps/luminarworks/.next/types/app/page.ts",
+          "hash": "18283444836819737728"
+        },
+        {
+          "file": "apps/luminarworks/.next/types/app/signup/page.ts",
+          "hash": "4803908543473284378"
+        },
+        {
+          "file": "apps/luminarworks/.next/types/cache-life.d.ts",
+          "hash": "4146217227981141382"
+        },
+        {
+          "file": "apps/luminarworks/.next/types/package.json",
+          "hash": "6094546126370684104"
+        },
+        {
+          "file": "apps/luminarworks/.next/types/routes.d.ts",
+          "hash": "11504168462645711866"
+        },
+        {
+          "file": "apps/luminarworks/.next/types/validator.ts",
+          "hash": "7107853151972446782"
+        },
+        {
+          "file": "apps/luminarworks/next-env.d.ts",
+          "hash": "2079576359933084494"
+        },
+        {
+          "file": "apps/luminarworks/next.config.ts",
+          "hash": "6850921188266746327"
+        },
+        {
+          "file": "apps/luminarworks/package.json",
+          "hash": "18029820646422074526",
+          "deps": [
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:typescript",
+            "npm:@tailwindcss/postcss",
+            "npm:next",
+            "npm:next-auth",
+            "npm:react",
+            "npm:react-dom",
+            "npm:tailwindcss"
+          ]
+        },
+        {
+          "file": "apps/luminarworks/postcss.config.mjs",
+          "hash": "5189091639376093863"
+        },
+        {
+          "file": "apps/luminarworks/project.json",
+          "hash": "3797514327320866936"
+        },
+        {
+          "file": "apps/luminarworks/src/app/actions.ts",
+          "hash": "6038337265175962092"
+        },
+        {
+          "file": "apps/luminarworks/src/app/api/auth/[...nextauth]/route.ts",
+          "hash": "6898140225989190846"
+        },
+        {
+          "file": "apps/luminarworks/src/app/dashboard/loading.tsx",
+          "hash": "1408160339629060733"
+        },
+        {
+          "file": "apps/luminarworks/src/app/dashboard/page.tsx",
+          "hash": "852577564001906740"
+        },
+        {
+          "file": "apps/luminarworks/src/app/globals.css",
+          "hash": "5661143226035721347"
+        },
+        {
+          "file": "apps/luminarworks/src/app/layout.tsx",
+          "hash": "4645861297215609350"
+        },
+        {
+          "file": "apps/luminarworks/src/app/loading.tsx",
+          "hash": "7808443459820118524"
+        },
+        {
+          "file": "apps/luminarworks/src/app/login/route.ts",
+          "hash": "10748174379275544277"
+        },
+        {
+          "file": "apps/luminarworks/src/app/page.tsx",
+          "hash": "7888455096444804460"
+        },
+        {
+          "file": "apps/luminarworks/src/app/signup/check-email/page.tsx",
+          "hash": "345890473706181107"
+        },
+        {
+          "file": "apps/luminarworks/src/app/signup/page.tsx",
+          "hash": "1210285359438134979"
+        },
+        {
+          "file": "apps/luminarworks/src/auth.ts",
+          "hash": "14277634755287673873"
+        },
+        {
+          "file": "apps/luminarworks/src/components/atoms/Badge/Badge.tsx",
+          "hash": "6672551807830424365"
+        },
+        {
+          "file": "apps/luminarworks/src/components/atoms/Button/Button.tsx",
+          "hash": "14072070536415167944"
+        },
+        {
+          "file": "apps/luminarworks/src/components/molecules/FeatureCard/FeatureCard.tsx",
+          "hash": "3772220657236516131"
+        },
+        {
+          "file": "apps/luminarworks/src/components/molecules/HeroContent/HeroContent.tsx",
+          "hash": "10427646163452845172"
+        },
+        {
+          "file": "apps/luminarworks/src/components/molecules/MetricCard/MetricCard.tsx",
+          "hash": "7845214714580963183"
+        },
+        {
+          "file": "apps/luminarworks/src/components/molecules/StatItem/StatItem.tsx",
+          "hash": "14102184244693945527"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/DashboardHeader/DashboardHeader.tsx",
+          "hash": "73332343581166308"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/FeaturesSection/FeaturesSection.tsx",
+          "hash": "3259631626142793443"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/HeroSection/HeroSection.tsx",
+          "hash": "12121955438921094839"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/SignUpForm/SignUpForm.tsx",
+          "hash": "18028747337916534962"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/StatsBar/StatsBar.tsx",
+          "hash": "6959758700097937564"
+        },
+        {
+          "file": "apps/luminarworks/src/components/templates/DashboardTemplate/DashboardTemplate.tsx",
+          "hash": "986884005828617663"
+        },
+        {
+          "file": "apps/luminarworks/src/components/templates/LandingTemplate/LandingTemplate.tsx",
+          "hash": "10670636146604801429"
+        },
+        {
+          "file": "apps/luminarworks/src/components/templates/SignUpTemplate/SignUpTemplate.tsx",
+          "hash": "3460330338292523128"
+        },
+        {
+          "file": "apps/luminarworks/src/middleware.ts",
+          "hash": "14447052610872009279"
+        },
+        {
+          "file": "apps/luminarworks/tsconfig.json",
+          "hash": "3613931489329482418"
         }
       ]
     }

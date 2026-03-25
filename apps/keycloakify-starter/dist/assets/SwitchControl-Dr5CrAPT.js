@@ -1,0 +1,1 @@
+import{j as r}from"./index-DMbPeMY4.js";import{o as s}from"./SessionExpirationWarningOverlay-BgZAOoJR.js";import{S as n}from"./SwitchControl-DJKAOwZP.js";const e=t=>{const{t:o}=s();return r.jsx(n,{...t,labelOn:o("on"),labelOff:o("off")})};export{e as D};

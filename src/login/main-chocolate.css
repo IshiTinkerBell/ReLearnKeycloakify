@@ -1,0 +1,4 @@
+@import url(./main.css);
+body.kcBodyClass {
+    background: url(../assets/background-chocolate.png) no-repeat center center fixed;
+}

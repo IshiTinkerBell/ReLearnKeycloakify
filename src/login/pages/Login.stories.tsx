@@ -16,6 +16,16 @@ export const Default: Story = {
     render: () => <KcPageStory />
 };
 
+export const DefaultChocolate: Story = {
+    render: () => (
+        <KcPageStory
+            kcContext={{
+                themeName: "chocolate"
+            }}
+        />
+    )
+};
+
 export const WithInvalidCredential: Story = {
     render: () => (
         <KcPageStory

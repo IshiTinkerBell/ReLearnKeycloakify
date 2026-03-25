@@ -35,7 +35,3 @@
     box-shadow: none;
     opacity: 0.6;
 }
-
-body.kcBodyClass {
-    background: url(../assets/background.png) no-repeat center center fixed;
-}

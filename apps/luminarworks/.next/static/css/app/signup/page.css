@@ -1,0 +1,165 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/organisms/SignUpForm/SignUpForm.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.SignUpForm_form__giCbL {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.SignUpForm_row__Afu1G {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    gap: 1rem;
+}
+
+.SignUpForm_field__31fGs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+
+.SignUpForm_label__WaGcO {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #94a3b8;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.SignUpForm_input__3O8pw {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(0, 212, 255, 0.15);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    color: #e2e8f0;
+    font-family: inherit;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.SignUpForm_input__3O8pw::placeholder {
+    color: #334155;
+}
+
+.SignUpForm_input__3O8pw:focus {
+    outline: none;
+    border-color: rgba(0, 212, 255, 0.5);
+    box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.08);
+}
+
+.SignUpForm_error__2NZpp {
+    font-size: 0.875rem;
+    color: #f87171;
+    background: rgba(248, 113, 113, 0.08);
+    border: 1px solid rgba(248, 113, 113, 0.2);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin: 0;
+}
+
+.SignUpForm_submit__Qs9jZ {
+    margin-top: 0.25rem;
+    padding: 0.9rem;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(135deg, #00d4ff 0%, #0288d1 100%);
+    color: #030712;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 0 32px rgba(0, 212, 255, 0.3);
+}
+
+.SignUpForm_submit__Qs9jZ:hover:not(:disabled) {
+    box-shadow: 0 0 48px rgba(0, 212, 255, 0.5);
+    transform: translateY(-1px);
+}
+
+.SignUpForm_submit__Qs9jZ:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/templates/SignUpTemplate/SignUpTemplate.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.SignUpTemplate_page__M9Yrz {
+    min-height: 100vh;
+    background: #06091a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.SignUpTemplate_card__Veth_ {
+    width: 100%;
+    max-width: 480px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(0, 212, 255, 0.1);
+    border-radius: 16px;
+    padding: 2.5rem 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.SignUpTemplate_header__nUiHZ {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.SignUpTemplate_logo__FSKNp {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.SignUpTemplate_logoText__whxyS {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #00d4ff;
+    letter-spacing: 0.04em;
+}
+
+.SignUpTemplate_title__1Ocmp {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #f0f6ff;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+
+.SignUpTemplate_subtitle__SLrYE {
+    font-size: 0.9rem;
+    color: #475569;
+    margin: 0;
+}
+
+.SignUpTemplate_loginPrompt__zVvcF {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #475569;
+    margin: 0;
+    padding-top: 0.25rem;
+    border-top: 1px solid rgba(0, 212, 255, 0.07);
+}
+
+.SignUpTemplate_loginLink__3p2ne {
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.SignUpTemplate_loginLink__3p2ne:hover {
+    text-decoration: underline;
+}
+

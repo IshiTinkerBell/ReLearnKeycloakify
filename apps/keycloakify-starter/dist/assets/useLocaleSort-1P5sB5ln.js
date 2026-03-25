@@ -1,0 +1,1 @@
+import{n as l}from"./KcAdminUi-qwbR5nmM.js";function i(){const{whoAmI:o}=l();return function(a,r){return[...a].sort((c,s)=>{const e=r(c),n=r(s);return e===void 0||n===void 0?0:e.localeCompare(n,o.locale)})}}const m=o=>t=>t[o];export{m,i as u};

@@ -1,0 +1,2290 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.4",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "README.md",
+        "hash": "4452840290825899376"
+      },
+      {
+        "file": ".prettierrc.json",
+        "hash": "16227447784453458633"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "11568653878289683587"
+      },
+      {
+        "file": ".github/workflows/ci.yaml",
+        "hash": "16753726252094193557"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "15689294289959854626"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6168941065882759607"
+      },
+      {
+        "file": ".storybook/preview-head.html",
+        "hash": "9935032987163239416"
+      },
+      {
+        "file": ".keycloakify/realm-kc-26.json",
+        "hash": "6935004293682551454"
+      },
+      {
+        "file": ".storybook/main.ts",
+        "hash": "9443099736782471869"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "10791598467535713472"
+      },
+      {
+        "file": ".claude/settings.local.json",
+        "hash": "13516392168893166706"
+      },
+      {
+        "file": "CLAUDE.md",
+        "hash": "13508964250150360787"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "3364563017719869349"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "7375654300365636801"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".storybook/preview.ts",
+        "hash": "12910455927522279503"
+      },
+      {
+        "file": "package.json",
+        "hash": "3985574586741368854"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "12776262723347673636"
+      }
+    ],
+    "projectFileMap": {
+      "luminarworks": [
+        {
+          "file": "apps/luminarworks/.env.local",
+          "hash": "5533944748956171088"
+        },
+        {
+          "file": "apps/luminarworks/.env.local.example",
+          "hash": "6287008184743636849"
+        },
+        {
+          "file": "apps/luminarworks/.next/app-build-manifest.json",
+          "hash": "6642808631538785885"
+        },
+        {
+          "file": "apps/luminarworks/.next/build-manifest.json",
+          "hash": "2702609462139627143"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/.rscinfo",
+          "hash": "11603307827937491990"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/next-devtools-config.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/0.pack.gz",
+          "hash": "4363299176106939532"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/1.pack.gz",
+          "hash": "7680741753816364303"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/2.pack.gz",
+          "hash": "6123181575534901071"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/3.pack.gz",
+          "hash": "8227932169647856663"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/4.pack.gz",
+          "hash": "7478770555119034913"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/5.pack.gz",
+          "hash": "1464475402075941647"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/6.pack.gz",
+          "hash": "15857160710344908739"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/7.pack.gz",
+          "hash": "8887371170854725460"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/8.pack.gz",
+          "hash": "17697422080617212496"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/9.pack.gz",
+          "hash": "11659978213143602893"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/index.pack.gz",
+          "hash": "6502338992109190533"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/client-development/index.pack.gz.old",
+          "hash": "1010844460544934368"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/edge-server-development/0.pack.gz",
+          "hash": "5080211465633611380"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/edge-server-development/index.pack.gz",
+          "hash": "5134735496688575865"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/0.pack.gz",
+          "hash": "18215322369178721150"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/1.pack.gz",
+          "hash": "4683164200303961376"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/10.pack.gz",
+          "hash": "7366979513216251154"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/11.pack.gz",
+          "hash": "3729450664278564812"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/12.pack.gz",
+          "hash": "7292729255578339379"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/13.pack.gz",
+          "hash": "14844194921212672390"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/2.pack.gz",
+          "hash": "14380177558569742170"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/3.pack.gz",
+          "hash": "11598442803980469561"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/4.pack.gz",
+          "hash": "256486175725541579"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/5.pack.gz",
+          "hash": "15490793155381791214"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/6.pack.gz",
+          "hash": "13258816893951690847"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/7.pack.gz",
+          "hash": "4269560812218502458"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/8.pack.gz",
+          "hash": "13794381607374542609"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/9.pack.gz",
+          "hash": "16555947253061552746"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/index.pack.gz",
+          "hash": "15016271134124344305"
+        },
+        {
+          "file": "apps/luminarworks/.next/cache/webpack/server-development/index.pack.gz.old",
+          "hash": "2716473527677050223"
+        },
+        {
+          "file": "apps/luminarworks/.next/package.json",
+          "hash": "11338307439248427064"
+        },
+        {
+          "file": "apps/luminarworks/.next/prerender-manifest.json",
+          "hash": "8213138431431773771"
+        },
+        {
+          "file": "apps/luminarworks/.next/react-loadable-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/luminarworks/.next/routes-manifest.json",
+          "hash": "2282505038782265489"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/app-paths-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/interception-route-rewrite-manifest.js",
+          "hash": "10484309360224763022"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/middleware-build-manifest.js",
+          "hash": "10087042376963020870"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/middleware-manifest.json",
+          "hash": "9889576824779923310"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/middleware-react-loadable-manifest.js",
+          "hash": "9185069726031651908"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/next-font-manifest.js",
+          "hash": "16541577805185552134"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/next-font-manifest.json",
+          "hash": "11891788324563068681"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/pages-manifest.json",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/server-reference-manifest.js",
+          "hash": "13062913855343812063"
+        },
+        {
+          "file": "apps/luminarworks/.next/server/server-reference-manifest.json",
+          "hash": "8095162416456322731"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/chunks/polyfills.js",
+          "hash": "8152964857117933876"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/development/_buildManifest.js",
+          "hash": "13063724784290855366"
+        },
+        {
+          "file": "apps/luminarworks/.next/static/development/_ssgManifest.js",
+          "hash": "17018243955171961484"
+        },
+        {
+          "file": "apps/luminarworks/.next/trace",
+          "hash": "14550223920614421000"
+        },
+        {
+          "file": "apps/luminarworks/.next/types/cache-life.d.ts",
+          "hash": "4146217227981141382"
+        },
+        {
+          "file": "apps/luminarworks/.next/types/package.json",
+          "hash": "6094546126370684104"
+        },
+        {
+          "file": "apps/luminarworks/.next/types/routes.d.ts",
+          "hash": "10602373472841301524"
+        },
+        {
+          "file": "apps/luminarworks/next-env.d.ts",
+          "hash": "2079576359933084494"
+        },
+        {
+          "file": "apps/luminarworks/next.config.ts",
+          "hash": "6850921188266746327"
+        },
+        {
+          "file": "apps/luminarworks/package.json",
+          "hash": "15963207637107270296",
+          "deps": [
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:typescript",
+            "npm:next",
+            "npm:next-auth",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/luminarworks/project.json",
+          "hash": "3797514327320866936"
+        },
+        {
+          "file": "apps/luminarworks/src/app/actions.ts",
+          "hash": "6038337265175962092"
+        },
+        {
+          "file": "apps/luminarworks/src/app/api/auth/[...nextauth]/route.ts",
+          "hash": "6898140225989190846"
+        },
+        {
+          "file": "apps/luminarworks/src/app/dashboard/page.tsx",
+          "hash": "852577564001906740"
+        },
+        {
+          "file": "apps/luminarworks/src/app/globals.css",
+          "hash": "3134948426458783671"
+        },
+        {
+          "file": "apps/luminarworks/src/app/layout.tsx",
+          "hash": "9896354760857278782"
+        },
+        {
+          "file": "apps/luminarworks/src/app/login/route.ts",
+          "hash": "10748174379275544277"
+        },
+        {
+          "file": "apps/luminarworks/src/app/page.tsx",
+          "hash": "7888455096444804460"
+        },
+        {
+          "file": "apps/luminarworks/src/app/signup/check-email/CheckEmailPage.module.css",
+          "hash": "5905718334024114240"
+        },
+        {
+          "file": "apps/luminarworks/src/app/signup/check-email/page.tsx",
+          "hash": "7854720310962404853"
+        },
+        {
+          "file": "apps/luminarworks/src/app/signup/page.tsx",
+          "hash": "1210285359438134979"
+        },
+        {
+          "file": "apps/luminarworks/src/auth.ts",
+          "hash": "14277634755287673873"
+        },
+        {
+          "file": "apps/luminarworks/src/components/atoms/Badge/Badge.module.css",
+          "hash": "12222572314214240009"
+        },
+        {
+          "file": "apps/luminarworks/src/components/atoms/Badge/Badge.tsx",
+          "hash": "3461527350611977282"
+        },
+        {
+          "file": "apps/luminarworks/src/components/atoms/Button/Button.module.css",
+          "hash": "12372495424294130104"
+        },
+        {
+          "file": "apps/luminarworks/src/components/atoms/Button/Button.tsx",
+          "hash": "15335418933566346065"
+        },
+        {
+          "file": "apps/luminarworks/src/components/molecules/FeatureCard/FeatureCard.module.css",
+          "hash": "3104097138324492539"
+        },
+        {
+          "file": "apps/luminarworks/src/components/molecules/FeatureCard/FeatureCard.tsx",
+          "hash": "13499605882436574395"
+        },
+        {
+          "file": "apps/luminarworks/src/components/molecules/HeroContent/HeroContent.module.css",
+          "hash": "6929845560031604998"
+        },
+        {
+          "file": "apps/luminarworks/src/components/molecules/HeroContent/HeroContent.tsx",
+          "hash": "8413110579079015815"
+        },
+        {
+          "file": "apps/luminarworks/src/components/molecules/MetricCard/MetricCard.module.css",
+          "hash": "9217488118741253900"
+        },
+        {
+          "file": "apps/luminarworks/src/components/molecules/MetricCard/MetricCard.tsx",
+          "hash": "15689444922213765858"
+        },
+        {
+          "file": "apps/luminarworks/src/components/molecules/StatItem/StatItem.module.css",
+          "hash": "16590168990602667070"
+        },
+        {
+          "file": "apps/luminarworks/src/components/molecules/StatItem/StatItem.tsx",
+          "hash": "8999248407118633493"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/DashboardHeader/DashboardHeader.module.css",
+          "hash": "12931012203792364387"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/DashboardHeader/DashboardHeader.tsx",
+          "hash": "16274498459548173658"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/FeaturesSection/FeaturesSection.module.css",
+          "hash": "10470135509279286782"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/FeaturesSection/FeaturesSection.tsx",
+          "hash": "14200192049069179129"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/HeroSection/HeroSection.module.css",
+          "hash": "7139394208728773783"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/HeroSection/HeroSection.tsx",
+          "hash": "11989871383850940236"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/SignUpForm/SignUpForm.module.css",
+          "hash": "6523266626519589035"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/SignUpForm/SignUpForm.tsx",
+          "hash": "5416543521718863144"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/StatsBar/StatsBar.module.css",
+          "hash": "7758452560430918355"
+        },
+        {
+          "file": "apps/luminarworks/src/components/organisms/StatsBar/StatsBar.tsx",
+          "hash": "16426455342810223895"
+        },
+        {
+          "file": "apps/luminarworks/src/components/templates/DashboardTemplate/DashboardTemplate.module.css",
+          "hash": "8162423362454266699"
+        },
+        {
+          "file": "apps/luminarworks/src/components/templates/DashboardTemplate/DashboardTemplate.tsx",
+          "hash": "3524135850168520082"
+        },
+        {
+          "file": "apps/luminarworks/src/components/templates/LandingTemplate/LandingTemplate.module.css",
+          "hash": "11289123987583816014"
+        },
+        {
+          "file": "apps/luminarworks/src/components/templates/LandingTemplate/LandingTemplate.tsx",
+          "hash": "1130445827659245351"
+        },
+        {
+          "file": "apps/luminarworks/src/components/templates/SignUpTemplate/SignUpTemplate.module.css",
+          "hash": "16040378556456194753"
+        },
+        {
+          "file": "apps/luminarworks/src/components/templates/SignUpTemplate/SignUpTemplate.tsx",
+          "hash": "2327106218015394573"
+        },
+        {
+          "file": "apps/luminarworks/src/middleware.ts",
+          "hash": "14447052610872009279"
+        },
+        {
+          "file": "apps/luminarworks/tsconfig.json",
+          "hash": "3613931489329482418"
+        }
+      ],
+      "keycloakify-starter": [
+        {
+          "file": "apps/keycloakify-starter/.keycloakify/realm-kc-26.json",
+          "hash": "12000245378821805337"
+        },
+        {
+          "file": "apps/keycloakify-starter/.storybook/main.ts",
+          "hash": "9443099736782471869"
+        },
+        {
+          "file": "apps/keycloakify-starter/.storybook/preview-head.html",
+          "hash": "9935032987163239416"
+        },
+        {
+          "file": "apps/keycloakify-starter/.storybook/preview.ts",
+          "hash": "12910455927522279503"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ActionListItem-DCZY-FyV.css",
+          "hash": "9569056648749012338"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ActionListItem-shhnqkMf.js",
+          "hash": "13198240986582265622"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AddIdentityProvider-vhW8tDAm.js",
+          "hash": "7129703045593546937"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AddJWTAuthorizationGrant-OyZUcIYf.js",
+          "hash": "7893188679432388908"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AddKubernetesConnect-dV-4LWGs.js",
+          "hash": "3500779387487316798"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AddMapper-Dbe-d5fe.js",
+          "hash": "5562489292659411683"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AddOAuth2-DQ0O4Cly.js",
+          "hash": "7455836586629126074"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AddOpenIdConnect-CP9gkU_L.js",
+          "hash": "1246163194056246044"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AddSamlConnect-8fdCBUFm.js",
+          "hash": "9474628273005982666"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AddSpiffeConnect-BflQBfLj.js",
+          "hash": "13887885368241252127"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AdminEvents-BRg7SlEO.css",
+          "hash": "1001327238402796237"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AdminEvents-CttTjjmf.js",
+          "hash": "8112039485722886527"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Applications-D3f6LTxE.js",
+          "hash": "4273393397422832380"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AttributeForm-B2lW6tYq.js",
+          "hash": "11231773672207195063"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AttributeForm-YNWXrEWO.css",
+          "hash": "7978731919342294711"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AttributesGroupDetails-USuXuXZ-.js",
+          "hash": "1663906556357304191"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AuthenticationSection-B61KQVL_.js",
+          "hash": "10698952515026563828"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/AuthenticationSection-BHTXEW5r.css",
+          "hash": "1365046032801882669"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ChipGroup-CsDSaqnh.css",
+          "hash": "17345424359125988332"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ChipGroup-eG2sSoDb.js",
+          "hash": "17100732054361747846"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ClickableCard-B3WOWsYY.css",
+          "hash": "586914630730278761"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ClickableCard-DWVqEgTe.js",
+          "hash": "2962838333187430477"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ClientDescription-WECGwrjv.js",
+          "hash": "9353490108417627787"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ClientDetails-DPOpEZI_.js",
+          "hash": "2836578711329966064"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ClientDetails-d7-2aBHW.css",
+          "hash": "15509516264401080702"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ClientIdSecret-BnCNVQ0j.js",
+          "hash": "6687350244626629160"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ClientProfileForm-CFr177V9.js",
+          "hash": "8823360878864822181"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ClientScopeTypes-Dvpwxxyy.js",
+          "hash": "15732215580538859232"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ClientScopesSection-DFxCLmaB.js",
+          "hash": "17158428239081282401"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ClientSelect-BH_QuzEY.js",
+          "hash": "2443768966563461724"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ClientsSection-LqztDif7.js",
+          "hash": "1499997750613158109"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Code-DYMunTqX.js",
+          "hash": "15855659853564827662"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/CodeEditor-CfU4-Lvk.js",
+          "hash": "16564077339443975438"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/CodeEditor-D93C6ejO.css",
+          "hash": "460844833112203221"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ConfirmDialog-Bg6E0Sqd.js",
+          "hash": "8425794889140073911"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ContentComponent-DaYFSQLl.js",
+          "hash": "6957678111806633383"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ContinueCancelModal-C_IQqjNh.js",
+          "hash": "12293727634757347307"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/CopyToClipboardButton-B79h3DKJ.js",
+          "hash": "18058096966284839392"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/CreateClientRole-LMPE1V1l.js",
+          "hash": "15561213536277493052"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/CreateClientScope-YwyVYLLN.js",
+          "hash": "1760441871196769126"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/CreateFlow-DNUTMAYb.js",
+          "hash": "2047785155377420311"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/CreateInitialAccessToken-YqBo3Hte.js",
+          "hash": "15296116741809075112"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/CreateRealmRole-mV_R02j1.js",
+          "hash": "1170861423728489924"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/CreateUser-CipMQ2VS.js",
+          "hash": "4865364832874509673"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/CreateUserFederationLdapSettings-Be3mwujP.js",
+          "hash": "11725302141473279666"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/CustomProviderSettings-DjsA3x6k.js",
+          "hash": "3846718908067997744"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/CustomProviderSettings-DnkPX1tb.css",
+          "hash": "11617577830597829466"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Dashboard-BjH1qJO8.js",
+          "hash": "12598730091919277010"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Dashboard-Ctewe5zZ.css",
+          "hash": "3925035028236862433"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DataListAction-DJflwcWw.js",
+          "hash": "8881393313555464692"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DataListContent-DMB753zN.js",
+          "hash": "13521430629865920235"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DataListControl-CznXCjc6.js",
+          "hash": "6250155938283224511"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DataListItemCells-BmPyY4K9.js",
+          "hash": "17394041502905656693"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DataListItemRow-56Zp6-d6.css",
+          "hash": "14759215292063716609"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DataListItemRow-BiDJJahp.js",
+          "hash": "14901216101339558140"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DatePicker-BA4VlYbA.js",
+          "hash": "16320639866707499763"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DatePicker-C4milHVg.css",
+          "hash": "10893648549263801873"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DedicatedScopes-C4YOxUTp.js",
+          "hash": "10298008519788827825"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DeleteAccountConfirm-9tUbFzs5.js",
+          "hash": "3157377961185709597"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DeleteCredential-epAZcAJX.js",
+          "hash": "14279164039187938481"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DeleteScopeDialog-yPxQYQ_v.js",
+          "hash": "5294088860534450566"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DescriptionListTerm-B_iOQXvV.js",
+          "hash": "2528084832925060644"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DescriptionListTerm-C0XPKJdB.css",
+          "hash": "2718233747157241169"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DetailOrganization-DmfmePxB.js",
+          "hash": "11399633871162683802"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DetailProvider-QWEDEbcw.js",
+          "hash": "726734541774631179"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DetailSettings-CG0a9lK_.js",
+          "hash": "2552119150728965430"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DeviceActivity-CxcEw4xl.js",
+          "hash": "2981213089681808352"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DiscoveryEndpointField-DAbut2-R.js",
+          "hash": "9972856107072619119"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DraggableTable-DwtdgFXt.js",
+          "hash": "3048201283563480710"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DropdownPanel-BYD_OY5L.css",
+          "hash": "9840206493975643388"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DropdownPanel-D8q8YbZG.js",
+          "hash": "6882196617483487395"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Droppable-DWVjR1Qw.css",
+          "hash": "4439820490258049782"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Droppable-sZoIBGE4.js",
+          "hash": "3148582705961204818"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DuplicateFlowModal-B729B_Y2.js",
+          "hash": "3238506864422528566"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DynamicComponents-BWYFueXd.js",
+          "hash": "2927892361178624080"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/DynamicComponents-DniN0CZn.css",
+          "hash": "15581243211231145478"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/EditClientScope-P9pbD2ek.js",
+          "hash": "13621601256605409807"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/EditUser-BM-VORK5.css",
+          "hash": "18383899045072524169"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/EditUser-xb9aUZDA.js",
+          "hash": "10912980587421641201"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/EmptyRow-7e4RfUrP.js",
+          "hash": "9823565627689289480"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/EmptyStateFooter-BmwVIJ2c.js",
+          "hash": "3889290540672429185"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/EmptyStateFooter-Dei4Phyb.css",
+          "hash": "10166855525727175441"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Error-DXSToyFf.js",
+          "hash": "14696774901822953812"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/EventsSection-BIu3aBey.js",
+          "hash": "14804754827364276386"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ExecutorForm-FaWID9ZF.js",
+          "hash": "7838714736298589300"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ExpandableSection-CD1r7RHV.css",
+          "hash": "213034977125401403"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ExpandableSection-ClHgXHom.js",
+          "hash": "14620856412742763868"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ExtendedHeader-_byes9Al.js",
+          "hash": "5818057148639626806"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/FileUpload-DOZHSepq.js",
+          "hash": "9166464760078989561"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/FileUpload-NUIxjvEP.css",
+          "hash": "4525717033961719451"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/FileUploadForm-aC4jO7y_.js",
+          "hash": "8017661295597950048"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/FlowDetails-CeS-yO47.css",
+          "hash": "7614030028391724411"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/FlowDetails-DscMDzRJ.js",
+          "hash": "16285955520310467851"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/FormAccess-BgewxZA-.js",
+          "hash": "17949814735847830579"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/FormAccess-C_ANckxo.css",
+          "hash": "13737956070006812409"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/FormGroup-CTkiGUh1.css",
+          "hash": "14736439821817512535"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/FormGroup-DQ_SgfVV.js",
+          "hash": "7743863663778416155"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/FormLabel-BW9Vwc-o.js",
+          "hash": "8129743855692462742"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/FormLabel-GJOZYOlO.css",
+          "hash": "4908096265265249241"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/FormSubmitButton-CZU2_Wyk.js",
+          "hash": "5261284550966293827"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/FrontchannelLogout-BRfzqL9f.js",
+          "hash": "17687059232891921409"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/GeneralSettings-C9CjqEdj.js",
+          "hash": "14060531876654896739"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/GridItem-D0Z5V4r8.css",
+          "hash": "4235698535027667390"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/GridItem-M01_CKXJ.js",
+          "hash": "13582350292572027944"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/GroupPickerDialog-COcBheir.js",
+          "hash": "5483512971337235429"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/GroupPickerDialog-CQugBKgR.css",
+          "hash": "15578996980595979839"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Groups-ouIgPDZF.js",
+          "hash": "1154881726716632607"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/GroupsSection-B8yYGkTW.css",
+          "hash": "6718430017560553467"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/GroupsSection-CFq7hhbX.js",
+          "hash": "15296347805254610654"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/HelpItem-BnQbCbEJ.js",
+          "hash": "17698060092452830550"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/IconMapper-4ijmLyUy.js",
+          "hash": "10640905563419075918"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/IdentityProviderSelect-DPJ1Czmt.js",
+          "hash": "14791124597163093768"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/IdentityProvidersSection-CkaU0UTR.js",
+          "hash": "5735507243288995700"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/IdpReviewUserProfile-7yqqpIoZ.js",
+          "hash": "3654750917030014332"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ImportForm-CzVUpAij.js",
+          "hash": "39046000525717630"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ImportKeyDialog-Db1Dn4v8.js",
+          "hash": "10812835155427788060"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Info-B1W9aWFQ.js",
+          "hash": "5668469012929594226"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Info-CjRdeg-F.js",
+          "hash": "2493998931098740956"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/JWTAuthorizationGrantSettings-CzNwAWmS.js",
+          "hash": "8372356751289451964"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/JsonFileUpload-_1q1EJK3.js",
+          "hash": "8247657477168845972"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/JwksSettings-DYF0eEFy.js",
+          "hash": "7805207108886950702"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/KcAccountUi-BA09vtCw.js",
+          "hash": "2908930055333626719"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/KcAccountUi-ZPypvqj7.css",
+          "hash": "12295674174806366240"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/KcAdminUi-FVUyh6Ve.css",
+          "hash": "10106450443800904070"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/KcAdminUi-qwbR5nmM.js",
+          "hash": "9600049570144433499"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/KcPage-C1XvuCHQ.js",
+          "hash": "15688114572297425545"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/KcPage-DecFJJ35.js",
+          "hash": "1348507655446766475"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/KcPage-bRN0ZuLs.js",
+          "hash": "12843889431086012017"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/KeyProviderForm-CVV98qjq.js",
+          "hash": "13673815710963135134"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/KeyValueInput-DovWPGWT.js",
+          "hash": "15647594719106622615"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/KeycloakDataTable-cNvmslhx.js",
+          "hash": "4591718919202884784"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/KeycloakSelect-CHaLa6W6.js",
+          "hash": "13763034326404221323"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/KeycloakTextArea-ngSxoqae.js",
+          "hash": "18413548369666909724"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/KubernetesSettings-Ct6ZqeqB.js",
+          "hash": "18275430416531146796"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Label-CK4sJzan.css",
+          "hash": "11978457720860526450"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Label-CS_23701.js",
+          "hash": "1143103654383478510"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LdapMapperDetails-DesvukDG.js",
+          "hash": "8467915729527415578"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LinkIdpAction-CjAexZSl.js",
+          "hash": "1944237442848022665"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LinkedAccounts-mHlM0gtu.js",
+          "hash": "5181052519967145058"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ListItem-BDJQzG5y.css",
+          "hash": "217924352939713967"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ListItem-ZpszbYON.js",
+          "hash": "9810649737571283005"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Login-DMUQamTI.js",
+          "hash": "7699659905862492070"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginConfigTotp-BCO-R1vF.js",
+          "hash": "3996766122081755218"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginIdpLinkConfirm-DSuGnszo.js",
+          "hash": "12019713874632685545"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginIdpLinkConfirmOverride-CezyFBSa.js",
+          "hash": "2790484523731749552"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginIdpLinkEmail-DhKyx9q5.js",
+          "hash": "6104056064255720589"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginOauth2DeviceVerifyUserCode-DPKYR58o.js",
+          "hash": "1439963351599791191"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginOauthGrant-Dt8XU4jt.js",
+          "hash": "16408724486372079054"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginOtp-B9lXYqA3.js",
+          "hash": "12451889816984339780"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginPageExpired-CRsqb9_Z.js",
+          "hash": "7220013854533924464"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginPasskeysConditionalAuthenticate-H6Rj2afM.js",
+          "hash": "8025162944544203879"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginPassword-BC4BkM_-.js",
+          "hash": "17887443729688775455"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginRecoveryAuthnCodeConfig-CkxvYoD2.js",
+          "hash": "11929773731998790994"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginRecoveryAuthnCodeInput-Bg0Ihopm.js",
+          "hash": "13935704580130517643"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginResetOtp-CJrPd1EF.js",
+          "hash": "17081329792288445131"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginResetPassword-DABJ8KXA.js",
+          "hash": "12434335432086817339"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginSettings-ByjMZgOJ.js",
+          "hash": "4590431631355544148"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginUpdatePassword-7VfSV9ml.js",
+          "hash": "14376977412561147744"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginUpdatePassword-Bfomo3-5.js",
+          "hash": "9373094190428816908"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginUpdateProfile-52GTHJkE.js",
+          "hash": "4507446816818814401"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginUsername-CxaXFj9S.js",
+          "hash": "12503403827644939734"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginVerifyEmail-B-dEIvEP.js",
+          "hash": "17840541480554164083"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LoginX509Info-fI1-aBhr.js",
+          "hash": "8227151743175301619"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/LogoutConfirm-BSx8gSAk.js",
+          "hash": "4488692257171622587"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ManageOrderDialog-3Ehtmyl6.js",
+          "hash": "3915425632998749632"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/MapperList-Cz02PX-N.js",
+          "hash": "3851434027703383267"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/MappingDetails-DWUAPiuE.js",
+          "hash": "15021928479803051845"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/MembersModal-DGXSfwRo.js",
+          "hash": "15407804171656008832"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/MenuGroup-BhtSM7TA.js",
+          "hash": "5212806850292559071"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/MultiLineInput-DySadRC_.js",
+          "hash": "17596337060132769632"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/NameDescription-DNoq7jxY.js",
+          "hash": "14476309125778994961"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/NewAttributeSettings-Ciy0DF85.js",
+          "hash": "14368432929522029038"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/NewClientForm-BoPrhPHD.js",
+          "hash": "13312625104711765334"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/NewClientForm-Dr5tEbi2.css",
+          "hash": "7248307575456219403"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/NewClientPolicy-CrPcnd4n.js",
+          "hash": "10580801096220874280"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/NewClientPolicyCondition-DHxKXJLI.js",
+          "hash": "18249742299660013370"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/NewOrganization-gqUDLmil.js",
+          "hash": "12236774716432407498"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/NewPolicyDialog-5vfWyBSt.js",
+          "hash": "18370052165747012639"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/NewPolicyDialog-DcIJAJkD.css",
+          "hash": "6533161160847206802"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/NumberControl-CT7i-vyA.js",
+          "hash": "9490045166117386157"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/NumberInput-CSTzVvy5.css",
+          "hash": "5420565195491182674"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/NumberInput-yOmGKaYb.js",
+          "hash": "17846839279204692114"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/OAuth2UserProfileClaimsSettings-EVcnT1Xj.js",
+          "hash": "14945313246159603202"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/OIDCGeneralSettings-B2Hqdi01.js",
+          "hash": "5280774705025179028"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Oid4Vci-a4HOrGgJ.js",
+          "hash": "8294817680086394448"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/OpenIdConnectSettings-KYM9ks0Z.js",
+          "hash": "10422837114559325668"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/OrganizationForm-BENJY51A.js",
+          "hash": "10204012682021881985"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/OrganizationTable-Cr3WtCUI.js",
+          "hash": "10483256415280254241"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/OrganizationsSection-BRdl1Nfq.js",
+          "hash": "6664215099213254109"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Page-DG48ORhD.js",
+          "hash": "10535767229640323023"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/PageHandler-D2psiLlT.js",
+          "hash": "3101767063866399797"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/PageList-DSQ_Czcn.js",
+          "hash": "7709897613423667313"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/PaginatingTableToolbar-D7dyr-eR.css",
+          "hash": "13783673033995616845"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/PaginatingTableToolbar-Rpkqb4Z6.js",
+          "hash": "18023993524047046295"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/PasswordControl-6ruZ1nf-.js",
+          "hash": "2520195263516855511"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/PermissionConfigurationDetails-CA0UV6dL.js",
+          "hash": "8774546052578898808"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/PermissionDetails-DkDHpA4m.js",
+          "hash": "12364453408039041768"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/PermissionTab-CIKqlXCr.css",
+          "hash": "5546531330585582125"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/PermissionTab-DT4JKuJ2.js",
+          "hash": "16869848064643235135"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/PermissionsConfigurationSection-CZN6MXlC.js",
+          "hash": "5507027305830457824"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/PersonalInfo-Wx3N07tA.js",
+          "hash": "6649585808531736776"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Policies-DMOM8-TQ.js",
+          "hash": "10534360361662827556"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Policies-DRKpwyOf.css",
+          "hash": "417920535445457498"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RealmRoleTabs-DB-pNYFd.js",
+          "hash": "16348439806322645494"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RealmRolesSection-BIe6kqIC.js",
+          "hash": "14884163668332135044"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RealmSection-uS_s5Pna.js",
+          "hash": "3403449308336174107"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RealmSettingsSection-Cdoyp-eT.css",
+          "hash": "12881449809499595307"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RealmSettingsSection-DFkmZ5Ru.js",
+          "hash": "761483103309620400"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatDisplay-Bold-4NfIjmgI.woff2",
+          "hash": "5625561745590465848"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatDisplay-BoldItalic-pTGisv8w.woff2",
+          "hash": "1958728011556080681"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatDisplay-Medium-C1BzJLzv.woff2",
+          "hash": "6632391364211509173"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatDisplay-MediumItalic-ZwmBpJRm.woff2",
+          "hash": "1772194101842723353"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatDisplayVF-CYDHf1NI.woff2",
+          "hash": "16934534282439232664"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatDisplayVF-Italic-CRpusWc8.woff2",
+          "hash": "12206382761688934033"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatMono-Italic-CV5TsSDj.woff2",
+          "hash": "13256965688158578069"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatMono-Regular-e08YtVYm.woff2",
+          "hash": "17203057150558393118"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatMonoVF-C4fMH6Vz.woff2",
+          "hash": "17394095108890131640"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatMonoVF-Italic-DGQo2ogW.woff2",
+          "hash": "4854713829416583878"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatText-Italic-BLl-MYdo.woff2",
+          "hash": "8974134148782593867"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatText-Medium-CFPgPIaW.woff2",
+          "hash": "12425545075940081285"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatText-MediumItalic-B14GYUh6.woff2",
+          "hash": "3675410666097139829"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatText-Regular-BDARZx4I.woff2",
+          "hash": "6530642636122227011"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatTextVF-Italic-Dkj_WqbA.woff2",
+          "hash": "6482656152905945060"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedHatTextVF-wYvZ7prR.woff2",
+          "hash": "466602663546872368"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RedirectUrl-U42D59mc.js",
+          "hash": "390641198262000645"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Register-DAWgJPwH.js",
+          "hash": "13359569143959458301"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Register-DZu5y6Ii.js",
+          "hash": "8862027062614658809"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ResourceDetails-BH9vHw8B.css",
+          "hash": "7585607638690676801"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ResourceDetails-CSoGGZ-W.js",
+          "hash": "8023325996542536341"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Resources-BRbPjNIh.css",
+          "hash": "3129827796260673893"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Resources-DUoS3Lhe.js",
+          "hash": "13894742343606673901"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RoleForm-D3kYYifZ.js",
+          "hash": "5658185438172241023"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RoleMapping-C3XMb5LV.js",
+          "hash": "3988741007788458478"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RoleMapping-Cz6tDcfR.css",
+          "hash": "4341874637034734361"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RolesList-CWiFlrTF.css",
+          "hash": "8742814322983076196"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RolesList-Cw8g6bKz.js",
+          "hash": "15302802484593721489"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/RoutableTabs-Z7dNq9NO.js",
+          "hash": "6759411733773722406"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SamlGeneralSettings-Co50-Ouz.css",
+          "hash": "3263408116777690716"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SamlGeneralSettings-DJlFMTMn.js",
+          "hash": "17601998054247069298"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SamlPostForm-D-9hd2LR.js",
+          "hash": "14908825746215158878"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SamlSignature-CJ8TuPHN.js",
+          "hash": "444730249461860283"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ScopeDetails-BK_FsHbx.js",
+          "hash": "219242337823855878"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ScopeForm-B7hBx4TP.js",
+          "hash": "2701239476577531576"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ScopePicker-BO7TdRm8.js",
+          "hash": "3754140500677305878"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ScrollForm-C4-N-JD1.css",
+          "hash": "14704878264568848686"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ScrollForm-D4xumVwA.js",
+          "hash": "3755706976442988751"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SearchFilter-DYVcjbqy.js",
+          "hash": "13659195677220941560"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SearchInputComponent-BUlDIoAY.js",
+          "hash": "3351601140046752783"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SelectAuthenticator-CxzShdEa.js",
+          "hash": "3979383776092414079"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SelectControl-CnKT1cpR.js",
+          "hash": "895459887710407987"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SelectOption-C5TWzW6C.js",
+          "hash": "6806304833445583733"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SelectOrganization-DK28sdY_.js",
+          "hash": "4424214328221157944"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SessionExpirationWarningOverlay-D0gqtOZS.css",
+          "hash": "10254476012744182866"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SessionExpirationWarningOverlay-DqDrhH8M.js",
+          "hash": "2435834639792611158"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SessionsSection-C5s1SYGP.css",
+          "hash": "10922910971368553453"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SessionsSection-D_UGGzVI.js",
+          "hash": "4517791573246398388"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SessionsTable--ONYinu7.js",
+          "hash": "17223595055026891196"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SettingsCache-B8D00TCq.js",
+          "hash": "15849890837632089801"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SettingsCache-E5eDqPG-.css",
+          "hash": "16705532115012625842"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SigningIn-TskZH4FX.js",
+          "hash": "6106324312446551565"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SpiffeSettings-DqkT7QCO.js",
+          "hash": "5959406999019812802"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SplitItem-Bk6K0ui6.js",
+          "hash": "3596216941595911507"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SplitItem-vTvhNyKd.css",
+          "hash": "5496762653014254252"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/StackItem-BsvhUMGO.js",
+          "hash": "11223546843934351873"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/StackItem-DyHzc31e.css",
+          "hash": "12674451570597758119"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SwitchControl-4MXIGNlT.js",
+          "hash": "11016118976510287689"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/SwitchControl-Cizci27T.js",
+          "hash": "6197475030674513999"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Tabs-ClAqUo2u.css",
+          "hash": "12678488049555776685"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Tabs-Dz_0jWMX.js",
+          "hash": "12334587966211657889"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Td-DG-bqUts.css",
+          "hash": "756810299989652307"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Td-Dqf7rLS7.js",
+          "hash": "17724392451654746079"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Terms-CnjhiFy7.js",
+          "hash": "3075723381180094284"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/TextArea-NQU7AteC.js",
+          "hash": "1297585880478251358"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/TextAreaControl-7Y2MQ4Gs.js",
+          "hash": "4851539614018911812"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/TextControl-CnMa-jpR.js",
+          "hash": "5512769383149845466"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/TextInputGroupUtilities-B1Po6HJR.css",
+          "hash": "5155288884695549293"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/TextInputGroupUtilities-G18aLgqd.js",
+          "hash": "5402470211490815785"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/TimeSelector-DHeFO77L.js",
+          "hash": "15206451022215155635"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/TimeSelectorControl-BEL__hDz.js",
+          "hash": "2102136661955230150"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/Trans-C4PNH3bB.js",
+          "hash": "16163778285619846023"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/TranslatableField-D7YOkC33.js",
+          "hash": "3768548681968067657"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/UpdateEmail-D84uSFKD.js",
+          "hash": "2794198374120277428"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/UserEvents-DiXML_KX.js",
+          "hash": "14516827297425695719"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/UserFederationKerberosSettings-C-LiHBSA.js",
+          "hash": "18010037141028316529"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/UserFederationLdapForm-DtGvLE7_.js",
+          "hash": "17020974550615240210"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/UserFederationLdapSettings-CxrC5uFl.js",
+          "hash": "13645065787198417954"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/UserFederationSection-CkoKLDjw.css",
+          "hash": "3029571576793333493"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/UserFederationSection-kbOQE8mE.js",
+          "hash": "17028769633059727808"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/UserForm-DVNt-Kay.js",
+          "hash": "7535990860111767160"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/UserProfileContext-BP-d3gmD.js",
+          "hash": "14302163494378959869"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/UserProfileFields-CgbEE1p1.js",
+          "hash": "6802472945534317006"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/UserProfileFormFields-B6h_5T4s.js",
+          "hash": "16419441083373931151"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/UsersSection-z1ZTymNz.js",
+          "hash": "13403585645692195484"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/VerifyEmail-BusKBbhC.js",
+          "hash": "7041702046122512658"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ViewHeader-K7ehwMlB.js",
+          "hash": "12073412777488014121"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ViewHeader-k0CqcZn6.css",
+          "hash": "5771251552799295569"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/WebauthnAuthenticate-C2siR-7R.js",
+          "hash": "17434879893357772078"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/WebauthnError-BtqV526P.js",
+          "hash": "5724810050786675752"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/WebauthnRegister-P5o_V_yw.js",
+          "hash": "9701653159802529349"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/WorkflowDetailForm-DxvAJljl.js",
+          "hash": "15532021978453460271"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/WorkflowsSection-CY656FM6.js",
+          "hash": "13373977880178940784"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/_baseFlatten-B3rZm1O5.js",
+          "hash": "17096034087862732023"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/_baseRest-DUiWQx6N.js",
+          "hash": "11505901318411524059"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/_baseSlice-F8doVSIJ.js",
+          "hash": "2815730681492929314"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/api-KJ4B47wS.js",
+          "hash": "16942070400977377772"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ar-BsQUzdoQ.js",
+          "hash": "15435867056371416837"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/assert-vnZbOQIH.js",
+          "hash": "16711872338490470371"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/background-Df0j2O8N.png",
+          "hash": "15147242653327676127"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/background-chocolate-BWx5yOfp.png",
+          "hash": "1224027465133639510"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ca-BJhURhwV.js",
+          "hash": "5299227442051788501"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/camelCase-Cv74o-Ak.js",
+          "hash": "4504813725938298990"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/capitalize-CqJbTWkx.js",
+          "hash": "13172407361496390110"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/constants-BclHbWtx.js",
+          "hash": "12567386864922266319"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/content-CDdRrCGl.js",
+          "hash": "1983069280465013771"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/createOidc-CiLYOQc6.js",
+          "hash": "2607386801756691314"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/cs-wb9J8cE3.js",
+          "hash": "2167339104266351342"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/da-DUGXmwt5.js",
+          "hash": "13971962221246965319"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/de-Cj30xIuT.js",
+          "hash": "4423194408785696397"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/debounce-6SMIlgr1.js",
+          "hash": "3648702367935677576"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/diagnostic-etwxT-g5.js",
+          "hash": "5204393306337501940"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/differenceBy-CFwpPNzH.js",
+          "hash": "12165476270616054462"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/discovery-settings-CXI-AgKk.css",
+          "hash": "2614822180118898042"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/earlyInit_DPoP-D1wsNmP6.js",
+          "hash": "17503300256892909086"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/el-18cdNQoV.js",
+          "hash": "1202932269399776869"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/es-DU5LZaIx.js",
+          "hash": "17926471746361277870"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/fa-CxkBFqPa.js",
+          "hash": "4977390358006076"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/fi-BZLruuCf.js",
+          "hash": "15963788116926951994"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/filter-icon-BMsi05A_.js",
+          "hash": "11603314185123000999"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/formatDate-bf1UCJsD.js",
+          "hash": "16110917531512116822"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/fr-wgaMavIS.js",
+          "hash": "13814432712129289399"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/grip-vertical-icon-DtMWiIPp.js",
+          "hash": "10738481229584362842"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/hu-DdbqMhz7.js",
+          "hash": "11092127192660357926"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/i18nInstance-C_j9O8Q_.js",
+          "hash": "2017711792314403018"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/icon-GM9pgfdX.svg",
+          "hash": "4099636295286534918"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/index-CUfmgbRF.js",
+          "hash": "18063431117068836804"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/index.esm-BiQB8lKJ.js",
+          "hash": "3414749331321701953"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/info-alt-icon-CtWAxUOz.js",
+          "hash": "11561229913361441052"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/isEqual-J4IXMu2X.js",
+          "hash": "7753838365859506910"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/it-DOTFDgfn.js",
+          "hash": "16081486224956435161"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ja-B5QJbOTz.js",
+          "hash": "9446492353629592088"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ka-DZwE4fY9.js",
+          "hash": "47669884698309214"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/keycloakUtils-BFH9thho.js",
+          "hash": "13166258562359058974"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/login-B-Q7nzod.css",
+          "hash": "7702082171783440093"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/logo-DMXsiXs4.svg",
+          "hash": "904806482028551884"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/logo-chocolate-ZftGqruH.svg",
+          "hash": "12598786622898667033"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/logo-kaIfqRYZ.js",
+          "hash": "4057800420015796773"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/lt-CGqv_POM.js",
+          "hash": "14210623492713403265"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/lv-B5raqUaa.js",
+          "hash": "16092797438225655506"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/main-chocolate-Csb5N4_Q.css",
+          "hash": "8619879917670782152"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/main-vanila-D6LQeuTx.css",
+          "hash": "16854762296713694128"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/minus-circle-icon-Gjy2hLSC.js",
+          "hash": "4715458272058779580"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/nl-DphhdUEU.js",
+          "hash": "6110413160618433577"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/no-DgR1LPmp.js",
+          "hash": "11149515460562192685"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/pencil-alt-icon-z1nLhIqI.js",
+          "hash": "8354113972433774954"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/pf-v5-pficon-Di6gTOT4.woff2",
+          "hash": "7289792121727675106"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/pickBy-DDqQs2aK.js",
+          "hash": "18366446175270641741"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/pl-RAc0Yr-q.js",
+          "hash": "13850653656916350391"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/plus-circle-icon-C3cA7n22.js",
+          "hash": "7021054176259406751"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/plus-icon-C7Z6Debw.js",
+          "hash": "2495124950570234246"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/policyRepresentation-CscDyJFY.js",
+          "hash": "1778006903053372599"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/pt-BR-CVNlHnmG.js",
+          "hash": "3045536516622471733"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/pt-DkXRyff8.js",
+          "hash": "18149411895895252831"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/question-circle-icon-dsLvqoJT.js",
+          "hash": "13539035993243228891"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/realm-settings-section-CxlvwuYe.css",
+          "hash": "2921610735200429994"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/ru-D0mB-cg3.js",
+          "hash": "5186081040566329100"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/sk-NRek3_Cx.js",
+          "hash": "15012629521303854484"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/sortBy-CIaqg8jb.js",
+          "hash": "7389286517985278144"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/sv-BZkvjI3x.js",
+          "hash": "13233353491007706150"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/th-khxRSgzp.js",
+          "hash": "16060569833725027559"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/tr-CFEjw1zN.js",
+          "hash": "13149688235434986750"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/translationFormatter-CqzjqNa5.js",
+          "hash": "16174821205962900888"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/trash-icon-Cw3bK6uQ.js",
+          "hash": "12968339795388703298"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/uk-D6EvKLWs.js",
+          "hash": "10639482375093871508"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/useAccountAlerts-BsahneZQ.js",
+          "hash": "16292914028163148867"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/useFormatDate-C3VGtmHV.js",
+          "hash": "6016117065429541795"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/useIsAdminPermissionsClient-BTaZJhHd.js",
+          "hash": "5732283552866869312"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/useIsPasswordRevealed-D_PYwLbk.js",
+          "hash": "15236345963330552544"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/useLocale-DAKBiq4u.js",
+          "hash": "823014941736566374"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/useLocaleSort-1P5sB5ln.js",
+          "hash": "2779385060901633532"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/useParams-ocYGcvsK.js",
+          "hash": "10665421414360540881"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/useSortedResourceTypes-Qv-i6zpo.js",
+          "hash": "8283255432327364069"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/user-section-oRLbnG28.css",
+          "hash": "15381580155926743577"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/userProfileMetadata-CFgHgJ2w.js",
+          "hash": "4199389761009340189"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/utils-DBmQB_kb.js",
+          "hash": "6316361900728046028"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/waitForElementMountedOnDom-qpCjLZnq.js",
+          "hash": "14855586583538042523"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/warning-triangle-icon-CEvtIN2r.js",
+          "hash": "10085518189433622947"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/webcrypto-liner-shim-Bc2cGZQP.js",
+          "hash": "2009338335476517262"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/zh-CN-Sngl5wWM.js",
+          "hash": "16878910465155555216"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/assets/zh-TW-Bt2gZReV.js",
+          "hash": "9867621194521712447"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/favicon-32x32.png",
+          "hash": "1338132608930986120"
+        },
+        {
+          "file": "apps/keycloakify-starter/dist/index.html",
+          "hash": "10231719114599542182"
+        },
+        {
+          "file": "apps/keycloakify-starter/eslint.config.js",
+          "hash": "15205344125900817790"
+        },
+        {
+          "file": "apps/keycloakify-starter/index.html",
+          "hash": "2673200605139635520"
+        },
+        {
+          "file": "apps/keycloakify-starter/package.json",
+          "hash": "974145565948391720",
+          "deps": [
+            "npm:@eslint/js",
+            "npm:storybook",
+            "npm:@storybook/react",
+            "npm:@storybook/react-vite",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:@vitejs/plugin-react",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:eslint-plugin-react-refresh",
+            "npm:eslint-plugin-storybook",
+            "npm:globals@15.15.0",
+            "npm:prettier",
+            "npm:typescript",
+            "npm:typescript-eslint",
+            "npm:vite",
+            "npm:@types/lodash-es",
+            "npm:@types/file-saver",
+            "npm:keycloakify",
+            "npm:react",
+            "npm:react-dom",
+            "npm:@keycloakify/keycloak-account-ui",
+            "npm:@keycloakify/keycloak-ui-shared",
+            "npm:@patternfly/patternfly",
+            "npm:@patternfly/react-core",
+            "npm:@patternfly/react-icons",
+            "npm:@patternfly/react-table",
+            "npm:i18next",
+            "npm:i18next-fetch-backend",
+            "npm:lodash-es",
+            "npm:react-hook-form",
+            "npm:react-i18next",
+            "npm:react-router-dom",
+            "npm:@keycloak/keycloak-admin-client",
+            "npm:@patternfly/react-styles",
+            "npm:oidc-spa",
+            "npm:@keycloakify/keycloak-admin-ui",
+            "npm:@dagrejs/dagre",
+            "npm:@uiw/react-textarea-code-editor",
+            "npm:file-saver",
+            "npm:flat@6.0.1",
+            "npm:jszip",
+            "npm:p-debounce",
+            "npm:reactflow",
+            "npm:use-react-router-breadcrumbs",
+            "npm:yaml"
+          ]
+        },
+        {
+          "file": "apps/keycloakify-starter/project.json",
+          "hash": "3078872737502620124"
+        },
+        {
+          "file": "apps/keycloakify-starter/public/favicon-32x32.png",
+          "hash": "1338132608930986120"
+        },
+        {
+          "file": "apps/keycloakify-starter/public/keycloak-theme/.gitignore",
+          "hash": "17791723614809109325"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/.gitignore",
+          "hash": "1720316288202509494"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/account/root/Header.tsx",
+          "hash": "16452524890842710657"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/assets/background-chocolate.png",
+          "hash": "1224027465133639510"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/assets/background.png",
+          "hash": "15147242653327676127"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/assets/logo-chocolate.svg",
+          "hash": "12598786622898667033"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/assets/logo.svg",
+          "hash": "2782957454744416269"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/kc.gen.tsx",
+          "hash": "15541875601376782469"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/KcContext.ts",
+          "hash": "9009526939295177559"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/KcPage.tsx",
+          "hash": "985170457617398001"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/KcPageStory.tsx",
+          "hash": "9042332168119599772"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/Template.tsx",
+          "hash": "9455200542765823667"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/i18n.ts",
+          "hash": "14501059530869892004"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/main-chocolate.css",
+          "hash": "753352646017623991"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/main-vanila.css",
+          "hash": "2338025182123729056"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/main.css",
+          "hash": "2517724996929476960"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/pages/Info.stories.tsx",
+          "hash": "5814390879185230795"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/pages/Info.tsx",
+          "hash": "5463817802144230689"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/pages/Login.stories.tsx",
+          "hash": "8732109785091194096"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/pages/LoginUpdatePassword.stories.tsx",
+          "hash": "14982856436507753989"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/pages/LoginUpdatePassword.tsx",
+          "hash": "15734793457878977080"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/pages/Register.stories.tsx",
+          "hash": "17195050422620385188"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/pages/Register.tsx",
+          "hash": "17993478394295695142"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/pages/VerifyEmail.stories.tsx",
+          "hash": "17719787583856709394"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/login/pages/VerifyEmail.tsx",
+          "hash": "10823340442399617276"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/main.tsx",
+          "hash": "15286817642353026361"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/shared/@patternfly/react-core/CustomButton.module.css",
+          "hash": "16061616017951464986"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/shared/@patternfly/react-core/CustomButton.tsx",
+          "hash": "11600241994518318574"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/shared/@patternfly/react-core/index.tsx",
+          "hash": "11164623381449417248"
+        },
+        {
+          "file": "apps/keycloakify-starter/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "apps/keycloakify-starter/tsconfig.json",
+          "hash": "1002363901257677584"
+        },
+        {
+          "file": "apps/keycloakify-starter/tsconfig.node.json",
+          "hash": "11727122430161354708"
+        },
+        {
+          "file": "apps/keycloakify-starter/vite.config.ts",
+          "hash": "15298924837654346743"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 580px;
+    position: relative;
+    z-index: 2;
+}
+
+.headline {
+    font-size: clamp(2.6rem, 5vw, 4.2rem);
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -0.025em;
+    color: #f0f6ff;
+}
+
+.gradient {
+    background: linear-gradient(135deg, #00d4ff 0%, #6b9fff 55%, #a855f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.description {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #94a3b8;
+    max-width: 500px;
+}
+
+.tagline {
+    font-size: 1.05rem;
+    font-weight: 700;
+    font-style: italic;
+    color: rgba(0, 212, 255, 0.75);
+    letter-spacing: 0.04em;
+}
+
+.ctaForm {
+    margin-top: 0.25rem;
+}
+
+.signUpPrompt {
+    font-size: 0.9rem;
+    color: #475569;
+    margin-top: -0.5rem;
+}
+
+.signUpLink {
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signUpLink:hover {
+    text-decoration: underline;
+}

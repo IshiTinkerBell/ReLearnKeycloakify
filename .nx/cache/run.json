@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx build-keycloak-theme keycloakify-starter",
+    "startTime": "2026-03-25T07:50:15.838Z",
+    "endTime": "2026-03-25T07:52:12.523Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "keycloakify-starter:build",
+      "target": "build",
+      "projectName": "keycloakify-starter",
+      "hash": "13719417889686732630",
+      "startTime": "2026-03-25T07:50:15.851Z",
+      "endTime": "2026-03-25T07:50:31.183Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "keycloakify-starter:build-keycloak-theme",
+      "target": "build-keycloak-theme",
+      "projectName": "keycloakify-starter",
+      "hash": "17132907405142546233",
+      "startTime": "2026-03-25T07:50:31.754Z",
+      "endTime": "2026-03-25T07:51:58.809Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

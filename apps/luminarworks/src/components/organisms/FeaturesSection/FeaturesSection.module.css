@@ -1,0 +1,37 @@
+.section {
+    padding: 5rem 0 6rem;
+    border-top: 1px solid rgba(0, 212, 255, 0.07);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.header {
+    text-align: center;
+}
+
+.heading {
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-weight: 800;
+    color: #f0f6ff;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.75rem;
+}
+
+.subheading {
+    font-size: 1rem;
+    color: #64748b;
+    letter-spacing: 0.02em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.25rem;
+}

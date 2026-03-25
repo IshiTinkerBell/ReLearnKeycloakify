@@ -1,0 +1,34 @@
+{
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "name": "luminarworks",
+    "projectType": "application",
+    "sourceRoot": "apps/luminarworks/src",
+    "targets": {
+        "dev": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "dev"
+            }
+        },
+        "build": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "build"
+            },
+            "cache": true,
+            "outputs": ["{projectRoot}/.next"]
+        },
+        "start": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "start"
+            }
+        },
+        "lint": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "lint"
+            }
+        }
+    }
+}

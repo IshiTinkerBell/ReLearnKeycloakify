@@ -1,0 +1,406 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/atoms/Badge/Badge.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Badge_badge__HC7DH {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.35rem 0.9rem;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #00d4ff;
+    background: rgba(0, 212, 255, 0.08);
+    border: 1px solid rgba(0, 212, 255, 0.25);
+}
+
+.Badge_badge__HC7DH::before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #00d4ff;
+    flex-shrink: 0;
+    animation: Badge_pulseDot__RSB5_ 2s ease-in-out infinite;
+}
+
+@keyframes Badge_pulseDot__RSB5_ {
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.35;
+        transform: scale(0.75);
+    }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/atoms/Button/Button.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Button_button__x6lHc {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.9rem 2.25rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    letter-spacing: 0.02em;
+    border: none;
+    white-space: nowrap;
+    font-family: inherit;
+}
+
+.Button_primary__a8YrV {
+    background: linear-gradient(135deg, #00d4ff 0%, #0288d1 100%);
+    color: #030712;
+    box-shadow: 0 0 32px rgba(0, 212, 255, 0.35), 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.Button_primary__a8YrV:hover {
+    box-shadow: 0 0 52px rgba(0, 212, 255, 0.55), 0 4px 24px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+}
+
+.Button_primary__a8YrV:active {
+    transform: translateY(0);
+}
+
+.Button_ghost__kj1h_ {
+    background: transparent;
+    color: #00d4ff;
+    border: 1.5px solid rgba(0, 212, 255, 0.4);
+}
+
+.Button_ghost__kj1h_:hover {
+    background: rgba(0, 212, 255, 0.08);
+    border-color: rgba(0, 212, 255, 0.8);
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/molecules/HeroContent/HeroContent.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.HeroContent_content__IPify {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 580px;
+    position: relative;
+    z-index: 2;
+}
+
+.HeroContent_headline__qgODE {
+    font-size: clamp(2.6rem, 5vw, 4.2rem);
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -0.025em;
+    color: #f0f6ff;
+}
+
+.HeroContent_gradient__K_nAu {
+    background: linear-gradient(135deg, #00d4ff 0%, #6b9fff 55%, #a855f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.HeroContent_description__9P91k {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #94a3b8;
+    max-width: 500px;
+}
+
+.HeroContent_tagline__XAyoI {
+    font-size: 1.05rem;
+    font-weight: 700;
+    font-style: italic;
+    color: rgba(0, 212, 255, 0.75);
+    letter-spacing: 0.04em;
+}
+
+.HeroContent_ctaForm__TwHTj {
+    margin-top: 0.25rem;
+}
+
+.HeroContent_signUpPrompt__ebpki {
+    font-size: 0.9rem;
+    color: #475569;
+    margin-top: -0.5rem;
+}
+
+.HeroContent_signUpLink__xEgqg {
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.HeroContent_signUpLink__xEgqg:hover {
+    text-decoration: underline;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/organisms/HeroSection/HeroSection.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.HeroSection_hero__yV_hx {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.HeroSection_background__leQ3G {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.HeroSection_aurora__Q9mbU {
+    position: absolute;
+    top: -20%;
+    right: -10%;
+    width: 75%;
+    height: 75%;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(0, 212, 255, 0.07) 0%,
+        rgba(107, 159, 255, 0.04) 40%,
+        transparent 70%
+    );
+    filter: blur(48px);
+    animation: HeroSection_auroraShift__Eam1p 9s ease-in-out infinite alternate;
+}
+
+.HeroSection_auroraSecondary__mPxIx {
+    position: absolute;
+    bottom: 5%;
+    left: -5%;
+    width: 55%;
+    height: 55%;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(168, 85, 247, 0.05) 0%,
+        rgba(0, 212, 255, 0.02) 45%,
+        transparent 70%
+    );
+    filter: blur(64px);
+    animation: HeroSection_auroraShift__Eam1p 12s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes HeroSection_auroraShift__Eam1p {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+    100% {
+        transform: translate(-3%, 4%) scale(1.06);
+    }
+}
+
+.HeroSection_wolfArt__YCMh_ {
+    position: absolute;
+    right: -2%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 56%;
+    max-width: 700px;
+    height: auto;
+}
+
+.HeroSection_gridOverlay__jre7K {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+    background-size: 64px 64px;
+    -webkit-mask-image: radial-gradient(ellipse 80% 80% at 60% 50%, rgba(0, 0, 0, 0.5) 0%, transparent 70%);
+            mask-image: radial-gradient(ellipse 80% 80% at 60% 50%, rgba(0, 0, 0, 0.5) 0%, transparent 70%);
+}
+
+.HeroSection_container__uVLXj {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 7rem 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .HeroSection_wolfArt__YCMh_ {
+        width: 100%;
+        right: -20%;
+        opacity: 0.5;
+    }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/molecules/StatItem/StatItem.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.StatItem_item__VRyR6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    text-align: center;
+}
+
+.StatItem_value__gPi6_ {
+    font-size: clamp(2rem, 3.5vw, 2.75rem);
+    font-weight: 800;
+    line-height: 1;
+    background: linear-gradient(135deg, #00d4ff, #6b9fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.StatItem_label__uSOeM {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #475569;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/organisms/StatsBar/StatsBar.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.StatsBar_bar__7qGOP {
+    border-top: 1px solid rgba(0, 212, 255, 0.07);
+    border-bottom: 1px solid rgba(0, 212, 255, 0.07);
+    background: rgba(0, 212, 255, 0.02);
+    padding: 3rem 0;
+}
+
+.StatsBar_container___Kano {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    gap: 2rem;
+}
+
+@media (max-width: 600px) {
+    .StatsBar_container___Kano {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/molecules/FeatureCard/FeatureCard.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.FeatureCard_card__uOLf9 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+    padding: 1.75rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.025);
+    border: 1px solid rgba(0, 212, 255, 0.1);
+    transition: transform 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+}
+
+.FeatureCard_card__uOLf9:hover {
+    transform: translateY(-3px);
+    border-color: rgba(0, 212, 255, 0.28);
+    background: rgba(0, 212, 255, 0.04);
+}
+
+.FeatureCard_iconWrap__ltuB3 {
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(0, 212, 255, 0.1);
+    color: #00d4ff;
+    flex-shrink: 0;
+}
+
+.FeatureCard_title__Zt9VI {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #e2e8f0;
+    letter-spacing: 0.01em;
+}
+
+.FeatureCard_description__HgdY1 {
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: #64748b;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/organisms/FeaturesSection/FeaturesSection.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.FeaturesSection_section__A0irf {
+    padding: 5rem 0 6rem;
+    border-top: 1px solid rgba(0, 212, 255, 0.07);
+}
+
+.FeaturesSection_container__vyhTw {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.FeaturesSection_header__BvQZQ {
+    text-align: center;
+}
+
+.FeaturesSection_heading___Lbpr {
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-weight: 800;
+    color: #f0f6ff;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.75rem;
+}
+
+.FeaturesSection_subheading__YjRsl {
+    font-size: 1rem;
+    color: #64748b;
+    letter-spacing: 0.02em;
+}
+
+.FeaturesSection_grid__agHXW {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 1.25rem;
+    gap: 1.25rem;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/templates/LandingTemplate/LandingTemplate.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.LandingTemplate_page__bq0Pa {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.LandingTemplate_footer__bAY0Q {
+    padding: 2rem 2.5rem;
+    text-align: center;
+    border-top: 1px solid rgba(0, 212, 255, 0.07);
+    font-size: 0.8rem;
+    color: #334155;
+    margin-top: auto;
+}
+

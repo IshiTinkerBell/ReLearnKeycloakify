@@ -1,0 +1,87 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!../../node_modules/.pnpm/next@15.5.14_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/app/signup/check-email/CheckEmailPage.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.CheckEmailPage_page__5VKo_ {
+    min-height: 100vh;
+    background: #06091a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.CheckEmailPage_card__iIDkN {
+    width: 100%;
+    max-width: 440px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(0, 212, 255, 0.1);
+    border-radius: 16px;
+    padding: 2.5rem 2.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.CheckEmailPage_iconWrapper__4bs0s {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CheckEmailPage_header__FRNog {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.CheckEmailPage_title__0Lifj {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #f0f6ff;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+
+.CheckEmailPage_subtitle__u5q6b {
+    font-size: 0.9rem;
+    color: #94a3b8;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.CheckEmailPage_tips__R8fZx {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100%;
+    border-top: 1px solid rgba(0, 212, 255, 0.07);
+    padding-top: 1.25rem;
+}
+
+.CheckEmailPage_tips__R8fZx li {
+    font-size: 0.825rem;
+    color: #475569;
+}
+
+.CheckEmailPage_footer__BjoE4 {
+    width: 100%;
+    border-top: 1px solid rgba(0, 212, 255, 0.07);
+    padding-top: 1.25rem;
+}
+
+.CheckEmailPage_link__bF3Ji {
+    font-size: 0.875rem;
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.CheckEmailPage_link__bF3Ji:hover {
+    text-decoration: underline;
+}
+

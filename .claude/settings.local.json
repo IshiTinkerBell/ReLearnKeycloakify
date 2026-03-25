@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install:*)",
+      "Bash(pnpm approve-builds:*)",
+      "Bash(./node_modules/.bin/nx --version)",
+      "Bash(./node_modules/.bin/nx show:*)",
+      "Bash(cp -r src apps/keycloakify-starter/src)",
+      "Bash(cp -r public apps/keycloakify-starter/public)",
+      "Bash(cp -r .storybook apps/keycloakify-starter/.storybook)",
+      "Bash(cp index.html apps/keycloakify-starter/index.html)",
+      "Bash(cp vite.config.ts apps/keycloakify-starter/vite.config.ts)",
+      "Bash(./node_modules/.bin/keycloakify --help)",
+      "Bash(./node_modules/.pnpm/keycloakify@11.15.3/node_modules/keycloakify/bin/keycloakify --help)",
+      "Bash(pnpm exec:*)",
+      "Bash(openssl rand:*)",
+      "Bash(git -C c:/Projects/ReLearnKeycloakify/keycloakify-starter log --oneline --follow src/login/KcPage.tsx)",
+      "Bash(git -C \"c:/Projects/ReLearnKeycloakify/keycloakify-starter\" ls-files src/)",
+      "Bash(git -C \"c:/Projects/ReLearnKeycloakify/keycloakify-starter\" ls-files --others --exclude-standard)",
+      "Bash(git -C \"c:/Projects/ReLearnKeycloakify/keycloakify-starter\" ls-files)",
+      "WebFetch(domain:docs.keycloakify.dev)",
+      "WebFetch(domain:app.gitbook.com)",
+      "WebFetch(domain:storybook.keycloakify.dev)"
+    ]
+  }
+}

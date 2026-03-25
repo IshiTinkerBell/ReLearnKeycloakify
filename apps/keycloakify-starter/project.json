@@ -1,0 +1,47 @@
+{
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "name": "keycloakify-starter",
+    "projectType": "application",
+    "sourceRoot": "apps/keycloakify-starter/src",
+    "targets": {
+        "dev": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "dev"
+            }
+        },
+        "build": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "build"
+            },
+            "outputs": ["{projectRoot}/dist"]
+        },
+        "build-keycloak-theme": {
+            "executor": "nx:run-script",
+            "dependsOn": ["build"],
+            "options": {
+                "script": "build-keycloak-theme"
+            },
+            "outputs": ["{projectRoot}/dist"]
+        },
+        "start-keycloak": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "start-keycloak"
+            }
+        },
+        "storybook": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "storybook"
+            }
+        },
+        "format": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "format"
+            }
+        }
+    }
+}

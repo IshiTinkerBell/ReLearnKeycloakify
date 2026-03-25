@@ -1,0 +1,73 @@
+.page {
+    min-height: 100vh;
+    background: #06091a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.card {
+    width: 100%;
+    max-width: 480px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(0, 212, 255, 0.1);
+    border-radius: 16px;
+    padding: 2.5rem 2.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.logoText {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #00d4ff;
+    letter-spacing: 0.04em;
+}
+
+.title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #f0f6ff;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #475569;
+    margin: 0;
+}
+
+.loginPrompt {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #475569;
+    margin: 0;
+    padding-top: 0.25rem;
+    border-top: 1px solid rgba(0, 212, 255, 0.07);
+}
+
+.loginLink {
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.loginLink:hover {
+    text-decoration: underline;
+}

@@ -8,7 +8,7 @@ export default defineConfig({
         react(),
         keycloakify({
             themeName: ["vanila", "chocolate"],
-            accountThemeImplementation: "none"
+            accountThemeImplementation: "Single-Page"
         })
     ]
 });

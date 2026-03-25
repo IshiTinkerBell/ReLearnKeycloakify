@@ -1689,7 +1689,7 @@
     },
     "smtpServer": {},
     "loginTheme": "vanila",
-    "accountTheme": "",
+    "accountTheme": "vanila",
     "adminTheme": "",
     "emailTheme": "",
     "eventsEnabled": false,

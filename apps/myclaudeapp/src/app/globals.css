@@ -64,6 +64,11 @@
         background: var(--color-primary-dark);
     }
 
+    .btn-primary:focus-visible {
+        outline: 2px solid var(--color-primary-dark);
+        outline-offset: 2px;
+    }
+
     .btn-ghost {
         background: transparent;
         color: var(--color-fg);
@@ -72,6 +77,11 @@
 
     .btn-ghost:hover:not(:disabled) {
         background: var(--color-surface);
+    }
+
+    .btn-ghost:focus-visible {
+        outline: 2px solid var(--color-line);
+        outline-offset: 2px;
     }
 
     .btn-outline {
@@ -83,6 +93,11 @@
     .btn-outline:hover:not(:disabled) {
         background: var(--color-primary);
         color: #ffffff;
+    }
+
+    .btn-outline:focus-visible {
+        outline: 2px solid var(--color-primary);
+        outline-offset: 2px;
     }
 
     .input-base {
@@ -101,7 +116,7 @@
         color: var(--color-fg-muted);
     }
 
-    .input-base:focus {
+    .input-base:focus-visible {
         outline: none;
         border-color: var(--color-primary);
         box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);

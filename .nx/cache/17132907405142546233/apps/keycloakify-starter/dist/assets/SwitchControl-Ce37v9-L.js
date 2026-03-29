@@ -1,1 +1,0 @@
-import{j as r}from"./index-Bes2gMOx.js";import{o as s}from"./SessionExpirationWarningOverlay-CaPdgaj2.js";import{S as n}from"./SwitchControl-DoFWyCgi.js";const e=t=>{const{t:o}=s();return r.jsx(n,{...t,labelOn:o("on"),labelOff:o("off")})};export{e as D};

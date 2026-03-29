@@ -1,0 +1,40 @@
+{
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "name": "myclaudeapp",
+    "projectType": "application",
+    "sourceRoot": "apps/myclaudeapp/src",
+    "targets": {
+        "dev": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "dev"
+            }
+        },
+        "build": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "build"
+            },
+            "cache": true,
+            "outputs": ["{projectRoot}/.next"]
+        },
+        "start": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "start"
+            }
+        },
+        "lint": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "lint"
+            }
+        },
+        "test": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "test"
+            }
+        }
+    }
+}

@@ -35,6 +35,12 @@
             "options": {
                 "script": "test"
             }
+        },
+        "test:watch": {
+            "executor": "nx:run-script",
+            "options": {
+                "script": "test:watch"
+            }
         }
     }
 }

@@ -1,16 +1,13 @@
-import type { ReactNode } from "react";
+import type { AnchorHTMLAttributes, ReactNode } from "react";
 
-export default function Link({
-    href,
-    children,
-    className,
-}: {
+interface LinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
     readonly href: string;
     readonly children: ReactNode;
-    readonly className?: string;
-}) {
+}
+
+export default function Link({ href, children, ...rest }: LinkProps) {
     return (
-        <a href={href} className={className}>
+        <a href={href} {...rest}>
             {children}
         </a>
     );

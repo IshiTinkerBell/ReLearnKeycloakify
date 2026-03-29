@@ -1,0 +1,18 @@
+/*
+ * Arctic Wolves theme — dark cybersecurity palette.
+ *
+ * To activate: add this line to src/app/globals.css, after @import "tailwindcss":
+ *   @import "../components/themes/arctic-wolves.css";
+ *
+ * To deactivate: remove that line.
+ */
+
+@theme {
+    --color-bg: #06091a;
+    --color-surface: rgba(255, 255, 255, 0.025);
+    --color-primary: #00d4ff;
+    --color-primary-dark: #0288d1;
+    --color-fg: #e2e8f0;
+    --color-fg-muted: #64748b;
+    --color-line: rgba(0, 212, 255, 0.15);
+}

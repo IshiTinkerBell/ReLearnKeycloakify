@@ -6,6 +6,7 @@ Nx monorepo with pnpm workspaces. Two apps:
 |-----|------|---------|-------------|
 | `keycloakify-starter` | `apps/keycloakify-starter/` | Keycloak custom theme (Vite + Storybook) | `pnpm exec nx storybook keycloakify-starter` → :6006 |
 | `luminarworks` | `apps/luminarworks/` | Next.js 15 + NextAuth v5 consumer app | `pnpm exec nx dev luminarworks` → :3000 |
+| `myclaudeapp` | `apps/myclaudeapp/` | Next.js 15 Figma-to-code learning app (auth-free) | `pnpm exec nx dev myclaudeapp` → :3002 |
 
 > The root `src/` no longer exists — it was a leftover and has been deleted. All source lives under `apps/<app>/src/`.
 

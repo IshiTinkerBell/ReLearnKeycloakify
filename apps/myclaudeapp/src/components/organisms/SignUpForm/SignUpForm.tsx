@@ -76,7 +76,7 @@ export function SignUpForm() {
                             <button
                                 type="button"
                                 onClick={() => setVerified(true)}
-                                className="shrink-0 px-4 py-2 rounded-[6px] bg-white border border-[#e2e8f0] text-[#155dfc] text-sm font-medium cursor-pointer whitespace-nowrap"
+                                className="shrink-0 px-4 py-2 rounded-[6px] bg-white border border-line text-primary text-sm font-medium cursor-pointer whitespace-nowrap"
                                 style={{ fontFamily: "var(--font-jost)" }}
                             >
                                 Verify
